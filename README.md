@@ -6,7 +6,7 @@
 
 [Package Control](https://sublime.wbond.net/)
 
-1. Open Console ctrl+`
+1. Open Console `Menu / View / Show Console`
 
 1. Paste and execute
 
@@ -30,6 +30,9 @@
 
 [Markdown Preview](https://github.com/revolunet/sublimetext-markdown-preview)
 
+[SFTP](http://wbond.net/sublime_packages/sftp)
+
+[AngulaJS](https://github.com/angular-ui/AngularJS-sublime-package)
 
 ## Syntax
 [Jquery](https://github.com/SublimeText/jQuery)
@@ -38,7 +41,11 @@
 
 [SASS](https://sublime.wbond.net/packages/Sass)
 
+
 ## Snippets
 
-[readme](https://gist.github.com/zenorocha/4526327) - Snippet from Zeno Rocha
+[JavaScript Console snippets](https://github.com/caiogondim/js-console-sublime-snippets)
 
+[Readme](https://gist.github.com/zenorocha/4526327) - Snippet from Zeno Rocha
+
+Jquery
