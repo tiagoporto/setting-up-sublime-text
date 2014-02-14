@@ -44,6 +44,8 @@
 
 ## Snippets
 
+[Comment Snippets](https://github.com/hachesilva/Comment-Snippets)
+
 [JavaScript Console snippets](https://github.com/caiogondim/js-console-sublime-snippets)
 
 [Readme](https://gist.github.com/zenorocha/4526327) - Snippet from Zeno Rocha
