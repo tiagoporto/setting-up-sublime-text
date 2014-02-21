@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/${1:1.10.4}/jquery-ui.min.js"></script>
+<script>window.jQuery.ui || document.write('<script src="js/jquery-ui-${1:1.10.4}.min.js"><\/script>')</script>
+]]></content>
+	<tabTrigger>jqueryui</tabTrigger>
+</snippet>
