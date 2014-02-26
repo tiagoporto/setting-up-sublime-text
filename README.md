@@ -1,7 +1,6 @@
 # Sublime Preferences
 
 
-
 ## Plugin
 
 [Package Control](https://sublime.wbond.net/)
@@ -21,6 +20,8 @@
 [Bracket Highlighter](https://github.com/facelessuser/BracketHighlighter)
 
 [Color Picker](http://weslly.github.io/ColorPicker/)
+
+Keyboard shortcut `ctrl+shift+c`
 
 [Emmet](http://docs.emmet.io/)
 
