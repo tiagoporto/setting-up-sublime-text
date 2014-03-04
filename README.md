@@ -45,6 +45,12 @@ Keyboard shortcut `ctrl+shift+c`
 
 ## Snippets
 
+Local Folder
+
+* Windows
+
+  `C:\Users\Name User\AppData\Roaming\Sublime Text 3\Packages\User`
+
 [Comment Snippets](https://github.com/hachesilva/Comment-Snippets)
 
 [JavaScript Console snippets](https://github.com/caiogondim/js-console-sublime-snippets)
