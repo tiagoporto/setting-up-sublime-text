@@ -58,3 +58,26 @@ Local Folder
 [Readme](https://gist.github.com/zenorocha/4526327) - Snippet from Zeno Rocha
 
 Jquery
+
+
+## Key Bindings
+
+### Mac OS
+
+Super + b = `<strong>selection</strong>`
+
+Super + i = `<em>selection</em>`
+
+Super + u = `<u>selection</u>`
+
+Super + alt + 7 = `encode_html_entities`
+
+### Windows
+
+Ctrl + b = `<strong>selection</strong>`
+
+Ctrl + i = `<em>selection</em>`
+
+Ctrl + u = `<u>selection</u>`
+
+Ctrl + alt + 7 = `encode_html_entities`
