@@ -57,6 +57,8 @@ Local Folder
 
 [Readme](https://gist.github.com/zenorocha/4526327) - Snippet from Zeno Rocha
 
+[Create Plugin jQuery](http://tableless.com.br/tudo-que-voce-gostaria-de-saber-sobre-plugins-jquery-e-ninguem-teve-paciencia-de-explicar/) - Code by Zeno Rocha
+
 Jquery
 
 

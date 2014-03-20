@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+(function( \$ ){
+	\$.fn.${1:Plugin Name} = function(options) {
+
+	var defaults = {
+		'${2:Var Name}' : '${3:Var value}'
+	};
+
+	var settings = \$.extend( {}, defaults, options );
+
+	return this.each(function() {
+		${4:Plugin Content}
+	});
+
+	};
+})( jQuery );
+]]></content>
+	<tabTrigger>plugin-jquery</tabTrigger>
+</snippet>
