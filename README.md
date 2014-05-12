@@ -33,7 +33,7 @@ Keyboard shortcut `ctrl+shift+c`
 
 [SFTP](http://wbond.net/sublime_packages/sftp)
 
-[AngulaJS](https://github.com/angular-ui/AngularJS-sublime-package)
+[AngularJS](https://github.com/angular-ui/AngularJS-sublime-package)
 
 ## Syntax
 [Jquery](https://github.com/SublimeText/jQuery)
