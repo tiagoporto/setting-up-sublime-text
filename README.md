@@ -42,6 +42,10 @@ Keyboard shortcut `ctrl+shift+c`
 
 [SASS](https://sublime.wbond.net/packages/Sass)
 
+[Apache Conf](https://github.com/colinta/ApacheConf.tmLanguage)
+
+[Robots](https://github.com/andriyko/sublime-robot-framework-assistant)
+
 
 ## Snippets
 
