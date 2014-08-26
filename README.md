@@ -35,6 +35,8 @@ Keyboard shortcut `ctrl+shift+c`
 
 [AngularJS](https://github.com/angular-ui/AngularJS-sublime-package)
 
+[ColorHighlighter](https://github.com/Monnoroch/ColorHighlighter)
+
 ## Syntax
 [Jquery](https://github.com/SublimeText/jQuery)
 
