@@ -25,6 +25,10 @@ Keyboard shortcut `ctrl+shift+c`
 
 [ColorHighlighter](https://github.com/Monnoroch/ColorHighlighter)
 
+Disable keybindings
+
+`tools -> color highlighter -> Disable default keybindings`
+
 [EditorConfig](http://editorconfig.org/)
 
 [Emmet](http://docs.emmet.io/)
