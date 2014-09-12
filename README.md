@@ -20,6 +20,7 @@
 [Bracket Highlighter](https://github.com/facelessuser/BracketHighlighter)
 
 [Color Picker](http://weslly.github.io/ColorPicker/)
+
 Keyboard shortcut `ctrl+shift+c`
 
 [ColorHighlighter](https://github.com/Monnoroch/ColorHighlighter)
