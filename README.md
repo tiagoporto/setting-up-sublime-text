@@ -33,6 +33,8 @@ Disable keybindings
 
 [Emmet](http://docs.emmet.io/)
 
+[Gist](https://github.com/condemil/Gist)
+
 [Markdown Preview](https://github.com/revolunet/sublimetext-markdown-preview)
 
 [SFTP](http://wbond.net/sublime_packages/sftp)
