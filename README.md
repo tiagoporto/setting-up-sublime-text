@@ -57,6 +57,8 @@ Disable keybindings
 
 [SASS](https://sublime.wbond.net/packages/Sass)
 
+[Stylus](https://github.com/billymoon/Stylus)
+
 
 ## Snippets
 
@@ -76,6 +78,7 @@ Local Folder
 
 [Readme](https://gist.github.com/zenorocha/4526327) - Snippet from Zeno Rocha
 
+[Stylus-Snippets](https://github.com/billymoon/Stylus-Snippets)
 
 ## Key Bindings
 
