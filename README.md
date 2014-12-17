@@ -47,6 +47,12 @@ Disable keybindings
 
 [Tag](https://github.com/SublimeText/Tag)
 
+[Terminal](https://github.com/wbond/sublime_terminal)
+
+Keyboard shortcut `ctrl+alt+shift+t` to project folder
+
+Keyboard shortcut `ctrl+shift+t` to file
+
 [Trailing Spaces](https://github.com/SublimeText/TrailingSpaces)
 
 
