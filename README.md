@@ -33,6 +33,10 @@ Disable keybindings
 
 [Emmet](http://docs.emmet.io/)
 
+[GhostText](https://github.com/Cacodaimon/GhostText-for-SublimeText)
+
+- [Extension for Chrome](https://chrome.google.com/webstore/detail/ghosttext-for-chrome/godiecgffnchndlihlpaajjcplehddca?utm_source=chrome-ntp-icon)
+
 [Gist](https://github.com/condemil/Gist)
 
 [Markdown Preview](https://github.com/revolunet/sublimetext-markdown-preview)
@@ -101,3 +105,7 @@ Ctrl + i = `<em>selection</em>`
 Ctrl + u = `<u>selection</u>`
 
 Ctrl + alt + 7 = `encode_html_entities`
+
+Tips
+
+Ctrl + k + Ctrl + v = Paste History
