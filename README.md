@@ -19,6 +19,10 @@
 
 [Bracket Highlighter](https://github.com/facelessuser/BracketHighlighter)
 
+[Can I Use](https://github.com/Azd325/sublime-text-caniuse)
+
+Keyboard shortcut `ctrl+alt+f`
+
 [Color Picker](http://weslly.github.io/ColorPicker/)
 
 Keyboard shortcut `ctrl+shift+c`
@@ -38,6 +42,8 @@ Disable keybindings
 - [Extension for Chrome](https://chrome.google.com/webstore/detail/ghosttext-for-chrome/godiecgffnchndlihlpaajjcplehddca?utm_source=chrome-ntp-icon)
 
 [Gist](https://github.com/condemil/Gist)
+
+[Gulp](https://github.com/NicoSantangelo/sublime-gulp)
 
 [Markdown Preview](https://github.com/revolunet/sublimetext-markdown-preview)
 
