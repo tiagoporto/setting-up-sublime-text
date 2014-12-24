@@ -1,5 +1,6 @@
-# Sublime Preferences
+# Sublime text 3 Settings
 
+![Sublime Text Logo](http://upload.wikimedia.org/wikipedia/en/4/4c/Sublime_Text_Logo.png)
 
 ## Plugins
 
@@ -9,9 +10,13 @@
 
 1. Paste and execute
 
-  ```python
-  import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
-  ```
+```python
+import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
+```
+
+[SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
+
+
 
 [AngularJS](https://github.com/angular-ui/AngularJS-sublime-package)
 
@@ -46,10 +51,9 @@ Disable keybindings
 [Gulp](https://github.com/NicoSantangelo/sublime-gulp)
 
 [Markdown Preview](https://github.com/revolunet/sublimetext-markdown-preview)
-
+mark
 [SFTP](http://wbond.net/sublime_packages/sftp)
 
-[SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
 
 [Tag](https://github.com/SublimeText/Tag)
 
@@ -62,7 +66,8 @@ Keyboard shortcut `ctrl+shift+t` to file
 [Trailing Spaces](https://github.com/SublimeText/TrailingSpaces)
 
 
-## Syntax
+## Additional Syntax Support
+
 [Apache Conf](https://github.com/colinta/ApacheConf.tmLanguage)
 
 [Jquery](https://github.com/SublimeText/jQuery)
@@ -75,6 +80,8 @@ Keyboard shortcut `ctrl+shift+t` to file
 
 [Stylus](https://github.com/billymoon/Stylus)
 
+[Stylus-Snippets](https://github.com/billymoon/Stylus-Snippets)
+
 
 ## Snippets
 
@@ -82,11 +89,9 @@ Local Folder
 
 * Windows
 
-  `C:\Users\Name User\AppData\Roaming\Sublime Text 3\Packages\User`
+`C:\Users\Name User\AppData\Roaming\Sublime Text 3\Packages\User`
 
 [Comment Snippets](https://github.com/hachesilva/Comment-Snippets)
-
-[Create Plugin jQuery](http://tableless.com.br/tudo-que-voce-gostaria-de-saber-sobre-plugins-jquery-e-ninguem-teve-paciencia-de-explicar/) - Code by Zeno Rocha
 
 [JavaScript Console snippets](https://github.com/caiogondim/js-console-sublime-snippets)
 
@@ -94,7 +99,6 @@ Local Folder
 
 [Readme](https://gist.github.com/zenorocha/4526327) - Snippet from Zeno Rocha
 
-[Stylus-Snippets](https://github.com/billymoon/Stylus-Snippets)
 
 ## Key Bindings
 
@@ -121,3 +125,7 @@ Ctrl + alt + 7 = `encode_html_entities`
 Tips
 
 Ctrl + k + Ctrl + v = Paste History
+
+f11 = full screen
+
+shift + f11 = distract mode
