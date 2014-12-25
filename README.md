@@ -156,6 +156,14 @@ Ctrl + alt + 7 = `encode_html_entities`
 
 * Layout in 2 columns `view/layout/Columns:2` or `alt+shift+2`
 
-<!-- http://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2/lessons/your-first-snippet
+<!--
+http://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2/lessons/your-first-snippet
 
-https://realpython.com/blog/python/setting-up-sublime-text-3-for-full-stack-python-development/ -->
+https://realpython.com/blog/python/setting-up-sublime-text-3-for-full-stack-python-development/
+https://github.com/mrmartineau/Placeholders
+https://github.com/wbond/sublime_alignment
+http://csscomb.com/
+https://github.com/hachesilva/Comment-Snippets
+https://github.com/caiogondim/js-console-sublime-snippets
+http://www.sitepoint.com/10-essential-sublime-text-plugins-full-stack-developer/
+ -->
