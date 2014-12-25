@@ -121,7 +121,7 @@ Super + alt + 7 = `encode_html_entities`
 
 ### Windows
 
- = `<strong>selection</strong>`
+Ctrl + b = `<strong>selection</strong>`
 
 Ctrl + i = `<em>selection</em>`
 
@@ -130,6 +130,19 @@ Ctrl + u = `<u>selection</u>`
 Ctrl + alt + 7 = `encode_html_entities`
 
 ## Tips
+
+### Multiple Selection
+
+`Ctrl+D` on Windows and Linux, or `Command+D` on OS X Quick Add Next
+
+* `Alt+F3` on Windows and Linux, or `Ctrl+Command+G` on OS X. Find All
+
+`Ctrl+Shift+L` or `Command+Shift+L` on OS X. Splitting the Selection into Lines
+
+`Ctrl+K,Ctrl+D` on Windows and Linux, or `Command+K,Command+D` on OS X. Quick Skip Next
+
+ if you go too far, use Undo Selection (Ctrl+U, or Command+U on OS X) to step backwards
+
 
 * `Ctrl + k + Ctrl + v` = Paste History
 
