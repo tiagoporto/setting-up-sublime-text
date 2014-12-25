@@ -89,6 +89,8 @@ Keyboard shortcut `ctrl+shift+t` to file
 
 [Stylus-Snippets](https://github.com/billymoon/Stylus-Snippets)
 
+[Laravel Blade](https://github.com/Medalink/laravel-blade)
+
 
 ## Snippets
 
@@ -153,3 +155,7 @@ Ctrl + alt + 7 = `encode_html_entities`
 ### Workspace
 
 * Layout in 2 columns `view/layout/Columns:2` or `alt+shift+2`
+
+<!-- http://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2/lessons/your-first-snippet
+
+https://realpython.com/blog/python/setting-up-sublime-text-3-for-full-stack-python-development/ -->
