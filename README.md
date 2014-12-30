@@ -20,9 +20,9 @@ There are a lot of custom packages to install, you can install packages to your 
 
 ### [Package Control](https://sublime.wbond.net/) ###
 
-Package Control manage all packages, makes it simple to find, install, remove and keep packages up-to-date. 
+Package Control manage all packages, makes it simple to find, install, remove and keep packages up-to-date.
 
-#### To install ####
+#### Installation ####
 
 * Open Console in the menu options `View > Show Console`
 
@@ -48,7 +48,7 @@ Removing packages
 
 ### [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements) ###
 
-Provides enhancements to the operations on Sidebar of Files and Folders, like: New File, New Folder, Cut, Copy, Duplicate...
+Provides enhancements to the operations on Sidebar of Files and Folders, like: new file/folder, edit, open/run, reveal, find in selected/parent/project, cut, copy, paste, paste in parent, rename, move, delete, refresh...
 
 ![screenshot sidebarEnhancements](http://dl.dropbox.com/u/43596449/tito/sublime/SideBar/screenshot.png)
 
@@ -58,17 +58,49 @@ Autocomplete filenames and paths in HTML and CSS.
 
 #### How to use ####
 
-* `ctrl` `space`
+* In the file press `ctrl` `space`
+
+![Screenshot AutoFileName screenshots](Screenshots/AutoFileName.png)
+
+#### Inserting markdown and stylus in the scope ####
+
+* Copy the file [autofilename.sublime-settings](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/autofilename.sublime-settings) in the folder `C:\Users\User Name\AppData\Roaming\Sublime Text 3\Packages\User` in windows or ` ~/Library/Application Support/Sublime Text 3` in OS X.
+
+### [Tag](https://github.com/SublimeText/Tag) ###
+
+Provides utilities to work with tags in HTML/XML: "Close tag on slash", "Tag indent or AutoFormat Tags", "Tag Remove", "Insert as Tag", "Tag Remove Attributes", "Tag Close", "Tag Lint"
+
+#### How to use ####
+
+* See the documentation: [https://github.com/SublimeText/Tag](https://github.com/SublimeText/Tag)
+
+### [Bracket Highlighter](https://github.com/facelessuser/BracketHighlighter) ###
+
+Find and highlight matching brackets such as: [], (), {}, "", '', <tag></tag>, and even custom brackets.
+
+![Screenshot](http://dl.dropbox.com/u/342698/BracketHighlighter/Example1.png )
+
+### [Trailing Spaces](https://github.com/SublimeText/TrailingSpaces)
+
+Highlight trailing spaces and delete them in a flash!
+
+![Screenshot TrailingSpaces](Screenshots/TrailingSpaces.png "")
+
+#### Setting Trim On Save ####
+
+* Copy the file [trailing_spaces.sublime-settings](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/trailing_spaces.sublime-settings) in the folder `C:\Users\User Name\AppData\Roaming\Sublime Text 3\Packages\User` in windows or ` ~/Library/Application Support/Sublime Text 3` in OS X.
 
 <!--
 
-### [AngularJS](https://github.com/angular-ui/AngularJS-sublime-package)
+### [Emmet](http://emmet.io/)
 
-### [Bracket Highlighter](https://github.com/facelessuser/BracketHighlighter)
+![Cheat Sheet](http://docs.emmet.io/cheat-sheet/)
 
-### [Can I Use](https://github.com/Azd325/sublime-text-caniuse)
+### [DocBlockr](https://github.com/spadgos/sublime-jsdocs) ###
 
-Keyboard shortcut `ctrl+alt+f`
+
+### [AllAutocomplete](https://github.com/alienhard/SublimeAllAutocomplete) ###
+
 
 ### [Color Picker](http://weslly.github.io/ColorPicker/)
 
@@ -80,9 +112,24 @@ Disable keybindings
 
 `tools -> color highlighter -> Disable default keybindings`
 
+
+### [SFTP](http://wbond.net/sublime_packages/sftp)
+
 ### [EditorConfig](http://editorconfig.org/)
 
-### [Emmet](http://docs.emmet.io/)
+Working with Markdown
+
+### [Markdown Preview](https://github.com/revolunet/sublimetext-markdown-preview)
+
+### [MarkdownEditing](https://github.com/SublimeText-Markdown/MarkdownEditing) ###
+
+### [AngularJS](https://github.com/angular-ui/AngularJS-sublime-package)
+
+### [Jquery](https://github.com/SublimeText/jQuery)
+
+### [Can I Use](https://github.com/Azd325/sublime-text-caniuse)
+
+Keyboard shortcut `ctrl+alt+f`
 
 ### [GhostText](https://github.com/Cacodaimon/GhostText-for-SublimeText)
 
@@ -92,24 +139,11 @@ Disable keybindings
 
 ### [Gulp](https://github.com/NicoSantangelo/sublime-gulp)
 
-### [Markdown Preview](https://github.com/revolunet/sublimetext-markdown-preview)
-
-### [MarkdownEditing](https://github.com/SublimeText-Markdown/MarkdownEditing) ###
-
-
-### [SFTP](http://wbond.net/sublime_packages/sftp)
-
-### [Tag](https://github.com/SublimeText/Tag)
-
 ### [Terminal](https://github.com/wbond/sublime_terminal)
 
 Keyboard shortcut `ctrl+alt+shift+t` to project folder
 
 Keyboard shortcut `ctrl+shift+t` to file
-
-### [Trailing Spaces](https://github.com/SublimeText/TrailingSpaces)
-
-### [Jquery](https://github.com/SublimeText/jQuery)
 
 
 ## Additional Syntax Support
@@ -137,7 +171,7 @@ Local Folder
 
 * Windows
 
-`C:\Users\Name User\AppData\Roaming\Sublime Text 3\Packages\User`
+`C:\Users\User Name\AppData\Roaming\Sublime Text 3\Packages\User`
 
 [Comment Snippets](https://github.com/hachesilva/Comment-Snippets)
 
@@ -203,5 +237,4 @@ https://github.com/wbond/sublime_alignment
 http://csscomb.com/
 https://github.com/hachesilva/Comment-Snippets
 https://github.com/caiogondim/js-console-sublime-snippets
-http://www.sitepoint.com/10-essential-sublime-text-plugins-full-stack-developer/
  -->
