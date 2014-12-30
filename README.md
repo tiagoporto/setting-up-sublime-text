@@ -34,14 +34,14 @@ Package Control manage all packages, makes it simple to find, install, remove an
 
 Installing packages
 
-* ctrl + shift + p
+* `ctrl` `shift` `p`
 * Type `install`
 * Select `Package Control: Install Package`
 * Search the package you want to install
 
 Removing packages
 
-* ctrl + shift + p
+* `ctrl` `shift` `p`
 * Type `remove`
 * Select `Package Control: Remove Package`
 * Find the package you want to remove
@@ -89,6 +89,9 @@ Disable keybindings
 
 ### [Markdown Preview](https://github.com/revolunet/sublimetext-markdown-preview)
 
+### [MarkdownEditing](https://github.com/SublimeText-Markdown/MarkdownEditing) ###
+
+
 ### [SFTP](http://wbond.net/sublime_packages/sftp)
 
 ### [Tag](https://github.com/SublimeText/Tag)
@@ -122,6 +125,8 @@ Keyboard shortcut `ctrl+shift+t` to file
 
 
 ## Snippets
+
+ctrl+shift+alt+p
 
 Local Folder
 

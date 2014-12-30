@@ -1,6 +1,25 @@
 [
-	{ "keys": ["super+b"], "command": "insert_snippet", "args": {"contents": "<strong>${0:$SELECTION}</strong>" } },
-	{ "keys": ["super+i"], "command": "insert_snippet", "args": {"contents": "<em>${0:$SELECTION}</em>" } },
-	{ "keys": ["super+u"], "command": "insert_snippet", "args": {"contents": "<u>${0:$SELECTION}</u>" } },
-	{ "keys": ["super+alt+7"], "command": "encode_html_entities" }
+	{ "keys": ["super+b"], "command": "insert_snippet", "args": {"contents": "<strong>${0:$SELECTION}</strong>" }, "context":
+		[
+			{ "key": "selector", "operator": "equal", "operand": "text.html.basic"}
+		]
+	},
+
+	{ "keys": ["super+i"], "command": "insert_snippet", "args": {"contents": "<em>${0:$SELECTION}</em>" }, "context":
+		[
+			{ "key": "selector", "operator": "equal", "operand": "text.html.basic"}
+		]
+	},
+
+	{ "keys": ["super+u"], "command": "insert_snippet", "args": {"contents": "<u>${0:$SELECTION}</u>" }, "context":
+		[
+			{ "key": "selector", "operator": "equal", "operand": "text.html.basic"}
+		]
+	},
+
+	{ "keys": ["super+alt+7"], "command": "encode_html_entities", "context":
+		[
+			{ "key": "selector", "operator": "equal", "operand": "text.html.basic"}
+		]
+	},
 ]

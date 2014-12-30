@@ -1,6 +1,25 @@
 [
-	{ "keys": ["ctrl+b"], "command": "insert_snippet", "args": {"contents": "<strong>${0:$SELECTION}</strong>" } },
-	{ "keys": ["ctrl+i"], "command": "insert_snippet", "args": {"contents": "<em>${0:$SELECTION}</em>" } },
-	{ "keys": ["ctrl+u"], "command": "insert_snippet", "args": {"contents": "<u>${0:$SELECTION}</u>" } },
-	{ "keys": ["ctrl+alt+7"], "command": "encode_html_entities" }
+	{ "keys": ["ctrl+b"], "command": "insert_snippet", "args": {"contents": "<strong>${0:$SELECTION}</strong>" }, "context":
+		[
+			{ "key": "selector", "operator": "equal", "operand": "text.html.basic"}
+		]
+	},
+
+	{ "keys": ["ctrl+i"], "command": "insert_snippet", "args": {"contents": "<em>${0:$SELECTION}</em>" }, "context":
+		[
+			{ "key": "selector", "operator": "equal", "operand": "text.html.basic"}
+		]
+	},
+
+	{ "keys": ["ctrl+u"], "command": "insert_snippet", "args": {"contents": "<u>${0:$SELECTION}</u>" }, "context":
+		[
+			{ "key": "selector", "operator": "equal", "operand": "text.html.basic"}
+		]
+	},
+
+	{ "keys": ["ctrl+alt+7"], "command": "encode_html_entities", "context":
+		[
+			{ "key": "selector", "operator": "equal", "operand": "text.html.basic"}
+		]
+	},
 ]
