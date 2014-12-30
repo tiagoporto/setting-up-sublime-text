@@ -1,28 +1,28 @@
-# Setting Up Sublime Text 3
+# Setting Up Sublime Text 3 #
 
 <p align="center"><img src="http://upload.wikimedia.org/wikipedia/en/4/4c/Sublime_Text_Logo.png" alt="Sublime Text Logo" width="120" ></p>
 
-This is not a step by step guide for anyone who starts with [Sublime Text](http://www.sublimetext.com/), these are the settings and reminders that fit in my workflow. You can choose what to install.
+This is not a step by step guide for anyone who starts with [Sublime Text](http://www.sublimetext.com/). These are the settings and reminders that fit in my workflow. You can choose what to install.
 
 > If they are useful to me, may also be useful for you.
 
-## Sublime Text
+## Sublime Text ##
 
 Download and install [Sublime Text](http://www.sublimetext.com/).
 
 [http://www.sublimetext.com/3](http://www.sublimetext.com/3)
 
-## Packages
+## Packages ##
 
 Packages in Sublime Text are a collection of resource files used to extend functionalities, they can be: plugins, syntax highlighting, menus, snippets...
 
 There are a lot of custom packages to install, you can install packages to your necessity or you can create you own package.
 
-### [Package Control](https://sublime.wbond.net/)
+### [Package Control](https://sublime.wbond.net/) ###
 
 Package Control manage all packages, makes it simple to find, install, remove and keep packages up-to-date. 
 
-#### To install
+#### To install ####
 
 * Open Console in the menu options `View > Show Console`
 
@@ -30,7 +30,7 @@ Package Control manage all packages, makes it simple to find, install, remove an
 
 <code>import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)</code>
 
-#### How to use
+#### How to use ####
 
 Installing packages
 
@@ -46,16 +46,21 @@ Removing packages
 * Select `Package Control: Remove Package`
 * Find the package you want to remove
 
+### [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements) ###
 
-### [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
-
-Provides enhancements to the operations on Sidebar of Files and Folders for Sublime Text.
+Provides enhancements to the operations on Sidebar of Files and Folders, like: New File, New Folder, Cut, Copy, Duplicate...
 
 ![screenshot sidebarEnhancements](http://dl.dropbox.com/u/43596449/tito/sublime/SideBar/screenshot.png)
 
+### [AutoFileName](https://github.com/BoundInCode/AutoFileName) ###
+
+Autocomplete filenames and paths in HTML and CSS.
+
+#### How to use ####
+
+* `ctrl` `space`
 
 <!--
-### [AutoFileName](https://github.com/BoundInCode/AutoFileName)
 
 ### [AngularJS](https://github.com/angular-ui/AngularJS-sublime-package)
 
