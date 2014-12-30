@@ -90,7 +90,8 @@ Highlight trailing spaces and delete them in a flash!
 
 * Copy the file [trailing_spaces.sublime-settings](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/trailing_spaces.sublime-settings) in the folder `C:\Users\User Name\AppData\Roaming\Sublime Text 3\Packages\User` in windows or ` ~/Library/Application Support/Sublime Text 3` in OS X.
 
-### [Emmet](http://emmet.io/) ###
+
+### ![Emmet Logo](http://emmet.io/i/logo.svg) [Emmet](http://emmet.io/) ###
 
 Emmet is the most essential plugin for web-developers, they helps you write HTML and CSS code easily, expanding simple abbreviations into complex code snippets.
 
@@ -124,22 +125,37 @@ The key bindings that plugin, use some of the same useful standards key bindins 
 
 * Menu Option `tools -> color highlighter -> Disable default keybindings`
 
+### [DocBlockr](https://github.com/spadgos/sublime-jsdocs) ###
+
+Good plugin to help write documentation in __JavaScript__, __PHP__, __CofeeScript__, ...
+
+![Screenshot DocBlockr](https://camo.githubusercontent.com/415148aecc6dac2e5ebb12b7f7584f4a8744eca4/687474703a2f2f73706164676f732e6769746875622e696f2f7375626c696d652d6a73646f63732f696d616765732f66756e6374696f6e2d74656d706c6174652e676966)
+
+### How to use ###
+
+* Press enter or tab after `/**` (or `###*` for Coffee-Script).
+
+### ![EditorConfig Logo](http://editorconfig.org/logo.png) [EditorConfig](http://editorconfig.org/) ###
+
+> EditorConfig helps developers define and maintain consistent coding styles between different editors and IDEs. The EditorConfig project consists of __a file format__ for defining coding styles and a collection of __text editor plugins__ that enable editors to read the file format and adhere to defined styles.
+
+### How to use ###
+
+* See the documentation: [EditorConfig Page](http://editorconfig.org/)
 
 <!--
-### [DocBlockr](https://github.com/spadgos/sublime-jsdocs) ###
 
 ### [AllAutocomplete](https://github.com/alienhard/SublimeAllAutocomplete) ###
 
+### [SFTP](http://wbond.net/sublime_packages/sftp) ###
 
-### [SFTP](http://wbond.net/sublime_packages/sftp)
-
-### [EditorConfig](http://editorconfig.org/)
 
 Working with Markdown
 
 ### [Markdown Preview](https://github.com/revolunet/sublimetext-markdown-preview)
 
 ### [MarkdownEditing](https://github.com/SublimeText-Markdown/MarkdownEditing) ###
+
 
 ### [AngularJS](https://github.com/angular-ui/AngularJS-sublime-package)
 
@@ -241,6 +257,7 @@ Ctrl + alt + 7 = `encode_html_entities`
 * `f11` = full screen
 * `shift` `f11` = distract mode
 * `ctrl` `shift` `t` = Reopen Closed Tab
+* `ctrl` `shift` `a` = expand selection to tag
 
 ### Workspace
 
