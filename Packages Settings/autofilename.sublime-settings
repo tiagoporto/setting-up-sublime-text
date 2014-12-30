@@ -1,0 +1,4 @@
+{
+	// Specify which scopes will trigger AutoFileName
+	"afn_valid_scopes":["string","css","sass","less","scss", "stylus", "markdown"],
+}
