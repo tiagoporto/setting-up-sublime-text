@@ -90,7 +90,7 @@ Highlight trailing spaces and delete them in a flash!
 
 * Copy the file [trailing_spaces.sublime-settings](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/trailing_spaces.sublime-settings) in the folder `C:\Users\User Name\AppData\Roaming\Sublime Text 3\Packages\User` in windows or ` ~/Library/Application Support/Sublime Text 3` in OS X.
 
-### [Emmet](http://emmet.io/)
+### [Emmet](http://emmet.io/) ###
 
 Emmet is the most essential plugin for web-developers, they helps you write HTML and CSS code easily, expanding simple abbreviations into complex code snippets.
 
@@ -102,24 +102,33 @@ Emmet is the most essential plugin for web-developers, they helps you write HTML
 * Read this great tutorial: [Goodbye, Zen Coding. Hello, Emmet!](http://www.smashingmagazine.com/2013/03/26/goodbye-zen-coding-hello-emmet/)
 * Learn the syntax in [Cheat Sheet](http://docs.emmet.io/cheat-sheet/)
 
+### [Color Picker](http://weslly.github.io/ColorPicker/) ###
+
+Open a Color Picker in Sublime Text.
+
+![Mac OSX](http://i.minus.com/i5KI6SBAfs7Qk.png)
+
+#### How to use ####
+
+* `ctrl` `shift` `c` on Windows or `command` `shift` `c` on OS X
+
+### [ColorHighlighter](https://github.com/Monnoroch/ColorHighlighter) ###
+
+Live Preview of color values in Stylesheets.
+
+![ColorHighlighter](http://i.imgur.com/UPmEk09.png)
+
+#### Tip ####
+
+The key bindings that plugin, use some of the same useful standards key bindins of the Sublime Text , I usually disable them
+
+* Menu Option `tools -> color highlighter -> Disable default keybindings`
+
+
 <!--
-
-
 ### [DocBlockr](https://github.com/spadgos/sublime-jsdocs) ###
 
-
 ### [AllAutocomplete](https://github.com/alienhard/SublimeAllAutocomplete) ###
-
-
-### [Color Picker](http://weslly.github.io/ColorPicker/)
-
-Keyboard shortcut `ctrl+shift+c`
-
-### [ColorHighlighter](https://github.com/Monnoroch/ColorHighlighter)
-
-Disable keybindings
-
-`tools -> color highlighter -> Disable default keybindings`
 
 
 ### [SFTP](http://wbond.net/sublime_packages/sftp)
