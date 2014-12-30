@@ -90,11 +90,20 @@ Highlight trailing spaces and delete them in a flash!
 
 * Copy the file [trailing_spaces.sublime-settings](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/trailing_spaces.sublime-settings) in the folder `C:\Users\User Name\AppData\Roaming\Sublime Text 3\Packages\User` in windows or ` ~/Library/Application Support/Sublime Text 3` in OS X.
 
-<!--
-
 ### [Emmet](http://emmet.io/)
 
-![Cheat Sheet](http://docs.emmet.io/cheat-sheet/)
+Emmet is the most essential plugin for web-developers, they helps you write HTML and CSS code easily, expanding simple abbreviations into complex code snippets.
+
+![Emmet Screenshot](http://media.mediatemple.netdna-cdn.com/wp-content/uploads/2013/03/initializers.gif)
+
+![Emmet Screnshot](http://media.mediatemple.netdna-cdn.com/wp-content/uploads/2013/03/multiplication.gif)
+
+* Watch the demo in [http://emmet.io/](http://emmet.io/)
+* Read this great tutorial: [Goodbye, Zen Coding. Hello, Emmet!](http://www.smashingmagazine.com/2013/03/26/goodbye-zen-coding-hello-emmet/)
+* Learn the syntax in [Cheat Sheet](http://docs.emmet.io/cheat-sheet/)
+
+<!--
+
 
 ### [DocBlockr](https://github.com/spadgos/sublime-jsdocs) ###
 
@@ -219,11 +228,10 @@ Ctrl + alt + 7 = `encode_html_entities`
  if you go too far, use Undo Selection (Ctrl+U, or Command+U on OS X) to step backwards
 
 
-* `Ctrl + k + Ctrl + v` = Paste History
-
+* `ctrl` `k` `ctrl` `v` = Paste History
 * `f11` = full screen
-
-* `shift + f11` = distract mode
+* `shift` `f11` = distract mode
+* `ctrl` `shift` `t` = Reopen Closed Tab
 
 ### Workspace
 
