@@ -1,4 +1,4 @@
-# Setting Up Sublime Text 3 #
+# Setting Up Sublime Text 3
 
 <p align="center"><img src="http://upload.wikimedia.org/wikipedia/en/4/4c/Sublime_Text_Logo.png" alt="Sublime Text Logo" width="120" ></p>
 
@@ -6,23 +6,23 @@ This is not a step by step guide for anyone who starts with [Sublime Text](http:
 
 > If they are useful to me, may also be useful for you.
 
-## Sublime Text ##
+## Sublime Text
 
 Download and install [Sublime Text](http://www.sublimetext.com/).
 
 [http://www.sublimetext.com/3](http://www.sublimetext.com/3)
 
-## Packages ##
+## Packages
 
 Packages in Sublime Text are a collection of resource files used to extend functionalities, they can be: plugins, syntax highlighting, menus, snippets...
 
 There are a lot of custom packages to install, you can install packages to your necessity or you can create you own package.
 
-### [Package Control](https://sublime.wbond.net/) ###
+### [Package Control](https://sublime.wbond.net/)
 
 Package Control manage all packages, makes it simple to find, install, remove and keep packages up-to-date.
 
-#### Installation ####
+#### Installation
 
 * Open Console in the menu options `View > Show Console`
 
@@ -30,7 +30,7 @@ Package Control manage all packages, makes it simple to find, install, remove an
 
 <code>import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)</code>
 
-#### How to use ####
+#### How to use
 
 Installing packages
 
@@ -46,37 +46,37 @@ Removing packages
 * Select `Package Control: Remove Package`
 * Find the package you want to remove
 
-### [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements) ###
+### [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
 
 Provides enhancements to the operations on Sidebar of Files and Folders, like: new file/folder, edit, open/run, reveal, find in selected/parent/project, cut, copy, paste, paste in parent, rename, move, delete, refresh...
 
 ![screenshot sidebarEnhancements](http://dl.dropbox.com/u/43596449/tito/sublime/SideBar/screenshot.png)
 
-### [AutoFileName](https://github.com/BoundInCode/AutoFileName) ###
+### [AutoFileName](https://github.com/BoundInCode/AutoFileName)
 
 Autocomplete filenames and paths in HTML and CSS.
 
-#### How to use ####
+#### How to use
 
 * In the file press `ctrl` `space`
 
 ![Screenshot AutoFileName screenshots](Screenshots/AutoFileName.png)
 
-#### Inserting markdown and stylus in the scope ####
+#### Inserting markdown and stylus in the scope
 
 * Copy the file [autofilename.sublime-settings](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/autofilename.sublime-settings) in the folder `C:\Users\User Name\AppData\Roaming\Sublime Text 3\Packages\User` in windows, ` ~/Library/Application Support/Sublime Text 3/Packages/User` in OS X or `~/.config/sublime-text-3/Packages/User` in Linux.
 
-### [Tag](https://github.com/SublimeText/Tag) ###
+### [Tag](https://github.com/SublimeText/Tag)
 
 Provides utilities to work with tags in HTML/XML: "Close tag on slash", "Tag indent or AutoFormat Tags", "Tag Remove", "Insert as Tag", "Tag Remove Attributes", "Tag Close", "Tag Lint"
 
-#### How to use ####
+#### How to use
 
 * See the documentation: [https://github.com/SublimeText/Tag](https://github.com/SublimeText/Tag)
 
-### [Bracket Highlighter](https://github.com/facelessuser/BracketHighlighter) ###
+### [Bracket Highlighter](https://github.com/facelessuser/BracketHighlighter)
 
-Find and highlight matching brackets such as: [], (), {}, "", '', <tag></tag>, and even custom brackets.
+Finds and highlights matching brackets such as: [], (), {}, "", '', <tag></tag>, and even custom brackets.
 
 ![Screenshot](http://dl.dropbox.com/u/342698/BracketHighlighter/Example1.png )
 
@@ -86,12 +86,12 @@ Highlight trailing spaces and delete them in a flash!
 
 ![Screenshot TrailingSpaces](Screenshots/TrailingSpaces.png "")
 
-#### Setting Trim On Save ####
+#### Setting Trim On Save
 
 * Copy the file [trailing_spaces.sublime-settings](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/trailing_spaces.sublime-settings) in the folder `C:\Users\User Name\AppData\Roaming\Sublime Text 3\Packages\User` in windows or ` ~/Library/Application Support/Sublime Text 3` in OS X.
 
 
-### ![Emmet Logo](http://emmet.io/i/logo.svg) [Emmet](http://emmet.io/) ###
+### ![Emmet Logo](http://emmet.io/i/logo.svg) [Emmet](http://emmet.io/)
 
 Emmet is the most essential plugin for web-developers, they helps you write HTML and CSS code easily, expanding simple abbreviations into complex code snippets.
 
@@ -103,47 +103,47 @@ Emmet is the most essential plugin for web-developers, they helps you write HTML
 * Read this great tutorial: [Goodbye, Zen Coding. Hello, Emmet!](http://www.smashingmagazine.com/2013/03/26/goodbye-zen-coding-hello-emmet/)
 * Learn the syntax in [Cheat Sheet](http://docs.emmet.io/cheat-sheet/)
 
-### [Color Picker](http://weslly.github.io/ColorPicker/) ###
+### [Color Picker](http://weslly.github.io/ColorPicker/)
 
 Open a Color Picker in Sublime Text.
 
 ![Mac OSX](http://i.minus.com/i5KI6SBAfs7Qk.png)
 
-#### How to use ####
+#### How to use
 
 * `ctrl` `shift` `c` on Windows or `command` `shift` `c` on OS X
 
-### [ColorHighlighter](https://github.com/Monnoroch/ColorHighlighter) ###
+### [ColorHighlighter](https://github.com/Monnoroch/ColorHighlighter)
 
 Live Preview of color values in Stylesheets.
 
 ![ColorHighlighter](http://i.imgur.com/UPmEk09.png)
 
-#### Tip ####
+#### Tip
 
 The key bindings that plugin, use some of the same useful standards key bindins of the Sublime Text , I usually disable them
 
 * Menu Option `tools -> color highlighter -> Disable default keybindings`
 
-### [DocBlockr](https://github.com/spadgos/sublime-jsdocs) ###
+### [DocBlockr](https://github.com/spadgos/sublime-jsdocs)
 
 Good plugin to help write documentation in __JavaScript__, __PHP__, __CofeeScript__, ...
 
 ![Screenshot DocBlockr](https://camo.githubusercontent.com/415148aecc6dac2e5ebb12b7f7584f4a8744eca4/687474703a2f2f73706164676f732e6769746875622e696f2f7375626c696d652d6a73646f63732f696d616765732f66756e6374696f6e2d74656d706c6174652e676966)
 
-### How to use ###
+### How to use
 
 * Press enter or tab after `/**` (or `###*` for Coffee-Script).
 
-### ![EditorConfig Logo](http://editorconfig.org/logo.png) [EditorConfig](http://editorconfig.org/) ###
+### ![EditorConfig Logo](http://editorconfig.org/logo.png) [EditorConfig](http://editorconfig.org/)
 
 > EditorConfig helps developers define and maintain consistent coding styles between different editors and IDEs. The EditorConfig project consists of __a file format__ for defining coding styles and a collection of __text editor plugins__ that enable editors to read the file format and adhere to defined styles.
 
-### How to use ###
+### How to use
 
 * See the documentation: [EditorConfig Page](http://editorconfig.org/)
 
-### [SFTP](http://wbond.net/sublime_packages/sftp) ###
+### [SFTP](http://wbond.net/sublime_packages/sftp)
 
 FTP, FTPS and SFTP support for Sublime Text.
 
@@ -151,25 +151,25 @@ FTP, FTPS and SFTP support for Sublime Text.
 
 ![Screenshots SFTP](http://wbond.net/sublime_packages/img/sftp/sidebar_menu_configured.png)
 
-#### How to use ####
+#### How to use
 
 * Read the [instructions](http://wbond.net/sublime_packages/sftp/usage).
 
-### [Can I Use](https://github.com/Azd325/sublime-text-caniuse) ###
+### [Can I Use](https://github.com/Azd325/sublime-text-caniuse)
 
 Useful for quick check CSS property support on the [Can I Use site](http://caniuse.com/).
 
-#### How to use ####
+#### How to use
 
 * Mark or place your cursor over a CSS property and press `ctrl` `alt` `f`.
 
-### <img src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp.png" alt="gulpjs Logo" width="50"> [gulp](https://github.com/NicoSantangelo/sublime-gulp) ###
+### <img src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp.png" alt="gulpjs Logo" width="50"> [gulp](https://github.com/NicoSantangelo/sublime-gulp)
 
 > A Gulp task runner with snippets.
 
-#### How to use ####
+#### How to use
 
-##### Run Tasks #####
+##### Run Tasks
 
 > It's necessary a `gulpfile.js` in an open folder.
 
@@ -179,20 +179,20 @@ Useful for quick check CSS property support on the [Can I Use site](http://caniu
 
 ![gulp screenshot](Screenshots/gulp.png)
 
-##### Snippets #####
+##### Snippets
 
 * See the documentation on [sublime-gulp](https://github.com/NicoSantangelo/sublime-gulp)
 
-### [Terminal](https://github.com/wbond/sublime_terminal) ###
+### [Terminal](https://github.com/wbond/sublime_terminal)
 
 > Launch terminals from the current file or the root project folder.
 
-#### How to use ####
+#### How to use
 
-##### Open Terminal at Project Folder #####
+##### Open Terminal at Project Folder
 * `ctrl` `alt` `shift` `t`
 
-##### Open Terminal at File #####
+##### Open Terminal at File
 
 * `alt` `shift` `t`
 
@@ -209,21 +209,42 @@ The default key binding is `ctrl` `shift` `t`, the same of the default sublime r
 
 ![Screenshot GhostText](http://img.youtube.com/vi/e0aLFPtYPZI/maxresdefault.jpg)
 
-#### Addition Installation ####
+#### Addition Installation
 
 - [Chrome Extension](https://chrome.google.com/webstore/detail/ghosttext-for-chrome/godiecgffnchndlihlpaajjcplehddca?utm_source=chrome-ntp-icon)
 
-#### How to use ####
+#### How to use
 
 * In Chrome, click the GhostText button in the upper-right corner to open up Sublime Text.
 
+## Working with Markdown ![Markdown Logo](https://raw.githubusercontent.com/dcurtis/markdown-mark/master/png/48x30.png)
+
+There are softwares ([Mou](http://25.io/mou/), [Atom](https://atom.io/) and [Brackets](http://blog.brackets.io/2013/04/23/markdown-extension-for-brackets/)) that have a live preview when editing markdown. The Sublime Text doesn't have this feature, even with plugins, the closest to this was using these plugins.
+
+### [MarkdownEditing](https://github.com/SublimeText-Markdown/MarkdownEditing)
+
+Powerful Markdown package with syntax highlighter, snippets and themes.
+
+![MarkdownEditing](https://raw.github.com/SublimeText-Markdown/MarkdownEditing/master/screenshots/light.png)
+
+#### How to use
+
+* See the documentation: [MarkdownEditing Page](https://github.com/SublimeText-Markdown/MarkdownEditing/blob/master/README.md)
+
+### [OmniMarkupPreviewer](https://github.com/timonwong/OmniMarkupPreviewer)
+
+Plugin to live preview markup files.
+
+![OmniMarkupPreviewer Screenshots](Screenshots/OmniMarkupPreviewer.png)
+
+#### How to use
+
+* Open the markdown file
+* `ctrl` `shift` `p`
+* Select `OmniMarkupPreviewer: Preview Current Markup in Browser`
+
+
 <!--
-Working with Markdown
-
-### [Markdown Preview](https://github.com/revolunet/sublimetext-markdown-preview)
-
-### [MarkdownEditing](https://github.com/SublimeText-Markdown/MarkdownEditing) ###
-
 ## Additional Syntax Support
 
 ### [AngularJS](https://github.com/angular-ui/AngularJS-sublime-package)

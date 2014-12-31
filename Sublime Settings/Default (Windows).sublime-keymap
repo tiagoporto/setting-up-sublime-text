@@ -21,12 +21,5 @@
 		[
 			{ "key": "selector", "operator": "equal", "operand": "text.html.basic"}
 		]
-	},
-
-	{ "keys": ["ctrl+s"],
-		"command": "save_build_markdown", "context":
-		[
-			{ "key": "selector", "operator": "equal", "operand": "text.html.markdown"}
-		]
 	}
 ]
