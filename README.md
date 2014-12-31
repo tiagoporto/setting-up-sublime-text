@@ -143,23 +143,26 @@ Good plugin to help write documentation in __JavaScript__, __PHP__, __CofeeScrip
 
 * See the documentation: [EditorConfig Page](http://editorconfig.org/)
 
-<!--
-
-### [AllAutocomplete](https://github.com/alienhard/SublimeAllAutocomplete) ###
-
 ### [SFTP](http://wbond.net/sublime_packages/sftp) ###
 
+FTP, FTPS and SFTP support for Sublime Text.
 
+![Screenshot SFTP](http://wbond.net/sublime_packages/img/sftp/sidebar_menu_unconfigured.png)
+
+![Screenshots SFTP](http://wbond.net/sublime_packages/img/sftp/sidebar_menu_configured.png)
+
+#### How to use ####
+
+* Read the [instructions](http://wbond.net/sublime_packages/sftp/usage).
+
+
+
+<!--
 Working with Markdown
 
 ### [Markdown Preview](https://github.com/revolunet/sublimetext-markdown-preview)
 
 ### [MarkdownEditing](https://github.com/SublimeText-Markdown/MarkdownEditing) ###
-
-
-### [AngularJS](https://github.com/angular-ui/AngularJS-sublime-package)
-
-### [Jquery](https://github.com/SublimeText/jQuery)
 
 ### [Can I Use](https://github.com/Azd325/sublime-text-caniuse)
 
@@ -182,6 +185,10 @@ Keyboard shortcut `ctrl+shift+t` to file
 
 ## Additional Syntax Support
 
+### [AngularJS](https://github.com/angular-ui/AngularJS-sublime-package)
+
+### [![Jquery](http://upload.wikimedia.org/wikipedia/en/thumb/9/9e/JQuery_logo.svg/200px-JQuery_logo.svg.png)](https://github.com/SublimeText/jQuery)
+
 ### [Apache Conf](https://github.com/colinta/ApacheConf.tmLanguage)
 
 ### [LESS](https://github.com/danro/LESS-sublime)
@@ -195,7 +202,6 @@ Keyboard shortcut `ctrl+shift+t` to file
 - [Stylus-Snippets](https://github.com/billymoon/Stylus-Snippets)
 
 ### [Laravel Blade](https://github.com/Medalink/laravel-blade)
-
 
 ## Snippets
 
@@ -214,7 +220,6 @@ Local Folder
 [Jquery](https://sublime.wbond.net/packages/jQuery)
 
 [Readme](https://gist.github.com/zenorocha/4526327) - Snippet from Zeno Rocha
-
 
 ## Key Bindings
 
