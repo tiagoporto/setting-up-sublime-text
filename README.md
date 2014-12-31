@@ -155,7 +155,33 @@ FTP, FTPS and SFTP support for Sublime Text.
 
 * Read the [instructions](http://wbond.net/sublime_packages/sftp/usage).
 
+### [Can I Use](https://github.com/Azd325/sublime-text-caniuse) ###
 
+Useful for quick check CSS property support on the [Can I Use site](http://caniuse.com/).
+
+#### How to use ####
+
+* Mark or place your cursor over a CSS property and press `ctrl` `alt` `f`.
+
+### <img src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp.png" alt="gulpjs Logo" width="50"> [gulp](https://github.com/NicoSantangelo/sublime-gulp) ###
+
+> A Gulp task runner with snippets.
+
+#### How to use ####
+
+##### Run Tasks #####
+
+> It's necessary a `gulpfile.js` in an open folder.
+
+* `ctrl` `shift` `p`
+* Type `gulp`
+* Select the task to run
+
+![gulp screenshot](Screenshots/gulp.png)
+
+##### Snippets #####
+
+* See the documentation on [sublime-gulp](https://github.com/NicoSantangelo/sublime-gulp)
 
 <!--
 Working with Markdown
@@ -164,17 +190,11 @@ Working with Markdown
 
 ### [MarkdownEditing](https://github.com/SublimeText-Markdown/MarkdownEditing) ###
 
-### [Can I Use](https://github.com/Azd325/sublime-text-caniuse)
-
-Keyboard shortcut `ctrl+alt+f`
 
 ### [GhostText](https://github.com/Cacodaimon/GhostText-for-SublimeText)
 
 - [Extension for Chrome](https://chrome.google.com/webstore/detail/ghosttext-for-chrome/godiecgffnchndlihlpaajjcplehddca?utm_source=chrome-ntp-icon)
 
-### [Gist](https://github.com/condemil/Gist)
-
-### [Gulp](https://github.com/NicoSantangelo/sublime-gulp)
 
 ### [Terminal](https://github.com/wbond/sublime_terminal)
 
