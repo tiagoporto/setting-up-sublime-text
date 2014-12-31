@@ -217,6 +217,47 @@ The default key binding is `ctrl` `shift` `t`, the same of the default sublime r
 
 * In Chrome, click the GhostText button in the upper-right corner to open up Sublime Text.
 
+## Additional Syntax Support
+
+Sublime Text has support for multiple languages, that aren't supported by default it's possible to be added with packages.
+
+### [<img src="http://lesscss.org/public/img/logo.png" alt="less logo" width="140">](https://github.com/danro/LESS-sublime)
+
+Provides syntax highlighting for less.
+
+### [<img src="http://sass-lang.com/assets/img/logos/logo-235e394c.png" alt="Sass Logo" width="100">](https://sublime.wbond.net/packages/Sass)
+
+Provides syntax highlighting and tab/code completion for Sass and SCSS files.
+
+### [<img src="http://learnboost.github.io/stylus/docs/graphics/Logos/stylus.png" alt="Stylus Logo" width="120">](https://github.com/billymoon/Stylus)
+
+> Includes build system and syntax highlighting for stylus CSS preprocessor.
+
+[Stylus-Snippets](https://github.com/billymoon/Stylus-Snippets)
+
+   This package complements [Stylus Package](https://github.com/billymoon/Stylus) includes Stylus Snippets, and allow dynamic expansion of CSS properties (use with Stylus plugin instead of emmet).
+
+
+### [![Jquery](http://upload.wikimedia.org/wikipedia/en/thumb/9/9e/JQuery_logo.svg/200px-JQuery_logo.svg.png)](https://github.com/SublimeText/jQuery)
+
+Provides syntax highlighting for jquery and snippets with methods.
+
+### [<img src="https://angularjs.org/img/AngularJS-large.png" alt="Angular JS Logo" width="170">](https://github.com/angular-ui/AngularJS-sublime-package)
+
+Code completion, snippets, syntax file `HTML (Angular.js)` and more.
+
+### <img src="http://upload.wikimedia.org/wikipedia/commons/c/cd/ASF-logo.svg" alt="Apache Logo" width="90"> [Apache Conf](https://github.com/colinta/ApacheConf.tmLanguage)
+
+Syntax Highlighting for .conf, .htaccess, .htgroups and .htpasswd
+
+### [![Laravel Logo](http://laravel.com/assets/img/logo-head.png) Blade](https://github.com/Medalink/laravel-blade)
+
+Syntax definitions for the Laravel Blade engine.
+
+### [Robots](https://github.com/andriyko/sublime-robot-framework-assistant)
+
+Provides some features for working with Robot Framework (.txt and .robot), like: Syntax highlighting, autocomplete and more.
+
 ## Working with Markdown ![Markdown Logo](https://raw.githubusercontent.com/dcurtis/markdown-mark/master/png/48x30.png)
 
 There are softwares ([Mou](http://25.io/mou/), [Atom](https://atom.io/) and [Brackets](http://blog.brackets.io/2013/04/23/markdown-extension-for-brackets/)) that have a live preview when editing markdown. The Sublime Text doesn't have this feature, even with plugins, the closest to this was using these plugins.
@@ -243,28 +284,7 @@ Plugin to live preview markup files.
 * `ctrl` `shift` `p`
 * Select `OmniMarkupPreviewer: Preview Current Markup in Browser`
 
-
 <!--
-## Additional Syntax Support
-
-### [AngularJS](https://github.com/angular-ui/AngularJS-sublime-package)
-
-### [![Jquery](http://upload.wikimedia.org/wikipedia/en/thumb/9/9e/JQuery_logo.svg/200px-JQuery_logo.svg.png)](https://github.com/SublimeText/jQuery)
-
-### [Apache Conf](https://github.com/colinta/ApacheConf.tmLanguage)
-
-### [LESS](https://github.com/danro/LESS-sublime)
-
-### [Robots](https://github.com/andriyko/sublime-robot-framework-assistant)
-
-### [SASS](https://sublime.wbond.net/packages/Sass)
-
-### [Stylus](https://github.com/billymoon/Stylus)
-
-- [Stylus-Snippets](https://github.com/billymoon/Stylus-Snippets)
-
-### [Laravel Blade](https://github.com/Medalink/laravel-blade)
-
 ## Snippets
 
 ctrl+shift+alt+p
@@ -338,4 +358,8 @@ https://github.com/wbond/sublime_alignment
 http://csscomb.com/
 https://github.com/hachesilva/Comment-Snippets
 https://github.com/caiogondim/js-console-sublime-snippets
+https://github.com/sobstel/SyncedSideBar
+https://github.com/purplefish32/sublime-text-2-wordpress
+https://github.com/SublimeLinter/SublimeLinter-for-ST2
+http://www.sublimelinter.com/en/latest/
  -->
