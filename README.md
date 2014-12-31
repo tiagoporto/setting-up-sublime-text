@@ -16,7 +16,7 @@ Download and install [Sublime Text](http://www.sublimetext.com/).
 
 Packages in Sublime Text are a collection of resource files used to extend functionalities, they can be: plugins, syntax highlighting, menus, snippets...
 
-There are a lot of custom packages to install, you can install packages to your necessity or you can create you own package.
+There are a lot of custom packages to install, you can install packages to your necessity or you can create your own package.
 
 ### [Package Control](https://sublime.wbond.net/)
 
@@ -64,7 +64,7 @@ Autocomplete filenames and paths in HTML and CSS.
 
 #### Inserting markdown and stylus in the scope
 
-* Copy the file [autofilename.sublime-settings](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/autofilename.sublime-settings) in the folder `C:\Users\User Name\AppData\Roaming\Sublime Text 3\Packages\User` in windows, ` ~/Library/Application Support/Sublime Text 3/Packages/User` in OS X or `~/.config/sublime-text-3/Packages/User` in Linux.
+* Copy the file [autofilename.sublime-settings](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/autofilename.sublime-settings) in the folder `C:\Users\{username}\AppData\Roaming\Sublime Text 3\Packages\User` in windows, ` ~/Library/Application Support/Sublime Text 3/Packages/User` in OS X or `~/.config/sublime-text-3/Packages/User` in Linux.
 
 ### [Tag](https://github.com/SublimeText/Tag)
 
@@ -88,12 +88,12 @@ Highlight trailing spaces and delete them in a flash!
 
 #### Setting Trim On Save
 
-* Copy the file [trailing_spaces.sublime-settings](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/trailing_spaces.sublime-settings) in the folder `C:\Users\User Name\AppData\Roaming\Sublime Text 3\Packages\User` in windows or ` ~/Library/Application Support/Sublime Text 3` in OS X.
+* Copy the file [trailing_spaces.sublime-settings](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/trailing_spaces.sublime-settings) in the folder `C:\Users\{username}\AppData\Roaming\Sublime Text 3\Packages\User` in windows or ` ~/Library/Application Support/Sublime Text 3` in OS X.
 
 
 ### ![Emmet Logo](http://emmet.io/i/logo.svg) [Emmet](http://emmet.io/)
 
-Emmet is the most essential plugin for web-developers, they helps you write HTML and CSS code easily, expanding simple abbreviations into complex code snippets.
+Emmet is the most essential plugin for web-developers, it helps you write HTML and CSS code easily, expanding simple abbreviations into complex code snippets.
 
 ![Emmet Screenshot](http://media.mediatemple.netdna-cdn.com/wp-content/uploads/2013/03/initializers.gif)
 
@@ -199,7 +199,7 @@ Useful for quick check CSS property support on the [Can I Use site](http://caniu
 The default key binding is `ctrl` `shift` `t`, the same of the default sublime reopen closed tab, I changed.
 
 * Copy the file
-    * [Default (Windows).sublime-keymap](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/Terminal/Default%20(Windows).sublime-keymap) in the folder `C:\Users\User Name\AppData\Roaming\Sublime Text 3\Packages\Terminal` in windows
+    * [Default (Windows).sublime-keymap](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/Terminal/Default%20(Windows).sublime-keymap) in the folder `C:\Users\{username}\AppData\Roaming\Sublime Text 3\Packages\Terminal` in windows
     * [Default (OSX).sublime-keymap](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/Terminal/Default%20(OSX).sublime-keymap) in the folder `~/Library/Application Support/Sublime Text 3/Packages/Terminal` in OS X
     * [Default (Linux).sublime-keymap](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/Terminal/Default%20(Linux).sublime-keymap) in the folder `~/.config/sublime-text-3/Packages/Terminal` in OS X
 
@@ -233,10 +233,11 @@ Provides syntax highlighting and tab/code completion for Sass and SCSS files.
 
 > Includes build system and syntax highlighting for stylus CSS preprocessor.
 
-[Stylus-Snippets](https://github.com/billymoon/Stylus-Snippets)
+#### Addition package
 
-   This package complements [Stylus Package](https://github.com/billymoon/Stylus) includes Stylus Snippets, and allow dynamic expansion of CSS properties (use with Stylus plugin instead of emmet).
+* [Stylus-Snippets](https://github.com/billymoon/Stylus-Snippets)
 
+    This package complements [Stylus Package](https://github.com/billymoon/Stylus) includes Stylus Snippets, and allow dynamic expansion of CSS properties (use with Stylus plugin instead of emmet).
 
 ### [![Jquery](http://upload.wikimedia.org/wikipedia/en/thumb/9/9e/JQuery_logo.svg/200px-JQuery_logo.svg.png)](https://github.com/SublimeText/jQuery)
 
@@ -284,24 +285,22 @@ Plugin to live preview markup files.
 * `ctrl` `shift` `p`
 * Select `OmniMarkupPreviewer: Preview Current Markup in Browser`
 
+
+
 <!--
 ## Snippets
-
-ctrl+shift+alt+p
 
 Local Folder
 
 * Windows
 
-`C:\Users\User Name\AppData\Roaming\Sublime Text 3\Packages\User`
-
-[Comment Snippets](https://github.com/hachesilva/Comment-Snippets)
-
-[JavaScript Console snippets](https://github.com/caiogondim/js-console-sublime-snippets)
-
-[Jquery](https://sublime.wbond.net/packages/jQuery)
+`C:\Users\{username}\AppData\Roaming\Sublime Text 3\Packages\User`
 
 [Readme](https://gist.github.com/zenorocha/4526327) - Snippet from Zeno Rocha
+
+### Creating your own snippets
+
+`ctrl` `shift` `alt` `p`
 
 ## Key Bindings
 
@@ -325,7 +324,9 @@ Ctrl + u = `<u>selection</u>`
 
 Ctrl + alt + 7 = `encode_html_entities`
 
-## Tips
+## Reminders
+
+If you're like me and always confused with a lot of shortcuts, it's for us.
 
 ### Multiple Selection
 
@@ -352,12 +353,12 @@ Ctrl + alt + 7 = `encode_html_entities`
 
 http://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2/lessons/your-first-snippet
 
+[Comment Snippets](https://github.com/hachesilva/Comment-Snippets)
+[JavaScript Console snippets](https://github.com/caiogondim/js-console-sublime-snippets)
 https://realpython.com/blog/python/setting-up-sublime-text-3-for-full-stack-python-development/
 https://github.com/mrmartineau/Placeholders
 https://github.com/wbond/sublime_alignment
 http://csscomb.com/
-https://github.com/hachesilva/Comment-Snippets
-https://github.com/caiogondim/js-console-sublime-snippets
 https://github.com/sobstel/SyncedSideBar
 https://github.com/purplefish32/sublime-text-2-wordpress
 https://github.com/SublimeLinter/SublimeLinter-for-ST2
