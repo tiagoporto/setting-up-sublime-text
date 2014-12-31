@@ -203,6 +203,19 @@ The default key binding is `ctrl` `shift` `t`, the same of the default sublime r
     * [Default (OSX).sublime-keymap](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/Terminal/Default%20(OSX).sublime-keymap) in the folder `~/Library/Application Support/Sublime Text 3/Packages/Terminal` in OS X
     * [Default (Linux).sublime-keymap](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/Terminal/Default%20(Linux).sublime-keymap) in the folder `~/.config/sublime-text-3/Packages/Terminal` in OS X
 
+### [![GhostText for Sublime Text](https://raw.githubusercontent.com/Cacodaimon/GhostText-for-Chrome/master/promo/gt_banner-for-sublimetext.png)](https://github.com/Cacodaimon/GhostText-for-SublimeText)
+
+> Allows live editing of Chrome text area or JS Code editor content with Sublime Text.
+
+![Screenshot GhostText](http://img.youtube.com/vi/e0aLFPtYPZI/maxresdefault.jpg)
+
+#### Addition Installation ####
+
+- [Chrome Extension](https://chrome.google.com/webstore/detail/ghosttext-for-chrome/godiecgffnchndlihlpaajjcplehddca?utm_source=chrome-ntp-icon)
+
+#### How to use ####
+
+* In Chrome, click the GhostText button in the upper-right corner to open up Sublime Text.
 
 <!--
 Working with Markdown
@@ -210,12 +223,6 @@ Working with Markdown
 ### [Markdown Preview](https://github.com/revolunet/sublimetext-markdown-preview)
 
 ### [MarkdownEditing](https://github.com/SublimeText-Markdown/MarkdownEditing) ###
-
-
-### [GhostText](https://github.com/Cacodaimon/GhostText-for-SublimeText)
-
-- [Extension for Chrome](https://chrome.google.com/webstore/detail/ghosttext-for-chrome/godiecgffnchndlihlpaajjcplehddca?utm_source=chrome-ntp-icon)
-
 
 ## Additional Syntax Support
 
