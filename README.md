@@ -64,7 +64,7 @@ Autocomplete filenames and paths in HTML and CSS.
 
 #### Inserting markdown and stylus in the scope ####
 
-* Copy the file [autofilename.sublime-settings](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/autofilename.sublime-settings) in the folder `C:\Users\User Name\AppData\Roaming\Sublime Text 3\Packages\User` in windows or ` ~/Library/Application Support/Sublime Text 3` in OS X.
+* Copy the file [autofilename.sublime-settings](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/autofilename.sublime-settings) in the folder `C:\Users\User Name\AppData\Roaming\Sublime Text 3\Packages\User` in windows, ` ~/Library/Application Support/Sublime Text 3/Packages/User` in OS X or `~/.config/sublime-text-3/Packages/User` in Linux.
 
 ### [Tag](https://github.com/SublimeText/Tag) ###
 
@@ -183,6 +183,27 @@ Useful for quick check CSS property support on the [Can I Use site](http://caniu
 
 * See the documentation on [sublime-gulp](https://github.com/NicoSantangelo/sublime-gulp)
 
+### [Terminal](https://github.com/wbond/sublime_terminal) ###
+
+> Launch terminals from the current file or the root project folder.
+
+#### How to use ####
+
+##### Open Terminal at Project Folder #####
+* `ctrl` `alt` `shift` `t`
+
+##### Open Terminal at File #####
+
+* `alt` `shift` `t`
+
+The default key binding is `ctrl` `shift` `t`, the same of the default sublime reopen closed tab, I changed.
+
+* Copy the file
+    * [Default (Windows).sublime-keymap](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/Terminal/Default%20(Windows).sublime-keymap) in the folder `C:\Users\User Name\AppData\Roaming\Sublime Text 3\Packages\Terminal` in windows
+    * [Default (OSX).sublime-keymap](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/Terminal/Default%20(OSX).sublime-keymap) in the folder `~/Library/Application Support/Sublime Text 3/Packages/Terminal` in OS X
+    * [Default (Linux).sublime-keymap](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/Terminal/Default%20(Linux).sublime-keymap) in the folder `~/.config/sublime-text-3/Packages/Terminal` in OS X
+
+
 <!--
 Working with Markdown
 
@@ -194,13 +215,6 @@ Working with Markdown
 ### [GhostText](https://github.com/Cacodaimon/GhostText-for-SublimeText)
 
 - [Extension for Chrome](https://chrome.google.com/webstore/detail/ghosttext-for-chrome/godiecgffnchndlihlpaajjcplehddca?utm_source=chrome-ntp-icon)
-
-
-### [Terminal](https://github.com/wbond/sublime_terminal)
-
-Keyboard shortcut `ctrl+alt+shift+t` to project folder
-
-Keyboard shortcut `ctrl+shift+t` to file
 
 
 ## Additional Syntax Support
