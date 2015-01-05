@@ -26,27 +26,21 @@ Download and install [Sublime Text](http://www.sublimetext.com/).
 All key bindings are configurable, you can change default key bindings or create new.
 
 <!--
-### Mac OS
+* [Default (Windows).sublime-keymap](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Sublime%20Settings/Default%20(Windows).sublime-keymap) in the folder `C:\Users\{username}\AppData\Roaming\Sublime Text 3\Packages\User` on Windows.
 
-`Super` `b` = `<strong>selection</strong>`
+* [Default (OSX).sublime-keymap](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Sublime%20Settings/Default%20(OSX).sublime-keymap) in the folder `~/Library/Application Support/Sublime Text 3/Packages/User` in OS X.
 
-`Super` `i` = `<em>selection</em>`
+* [Default (Linux).sublime-keymap](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Sublime%20Settings/Default%20(Linux).sublime-keymap) in the folder `~/.config/sublime-text-3/Packages/User` in Linux.
 
-`Super` `u` = `<u>selection</u>`
 
-`Super` `alt` `7` = `encode_html_entities`
+`Ctrl` `b` on windows or Linux and `Super` `b` on OS X  = `<strong>selection</strong>`
 
-### Windows
+`Ctrl` `i` on windows or Linux and `Super` `i` on OS X = `<em>selection</em>`
 
-`Ctrl` `b` = `<strong>selection</strong>`
+`Ctrl` `u` on windows or Linux and `Super` `u` on OS X = `<u>selection</u>`
 
-`Ctrl` `i` = `<em>selection</em>`
-
-`Ctrl` `u` = `<u>selection</u>`
-
-`Ctrl` `alt` `7` = `encode_html_entities`
+`Ctrl` `alt` `7` on windows or Linux and `Super` `alt` `7` on OS X = `encode_html_entities`
 -->
-
 
 ## Snippets
 
@@ -65,11 +59,10 @@ When you write `jquery` and press `tab`, the Sublime Text identifies you need sn
 <!--
 Local Folder
 
-* Windows
-
 `C:\Users\{username}\AppData\Roaming\Sublime Text 3\Packages\User`
 
-[Readme](https://gist.github.com/zenorocha/4526327) - Snippet from Zeno Rocha
+* [Readme](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Snippets/Readme%20File.sublime-snippet)
+
 
 -->
 
@@ -155,7 +148,9 @@ Highlight trailing spaces and delete them in a flash!
 
 #### Setting Trim On Save
 
-* Copy the file [trailing_spaces.sublime-settings](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/trailing_spaces.sublime-settings) in the folder `C:\Users\{username}\AppData\Roaming\Sublime Text 3\Packages\User` in windows or ` ~/Library/Application Support/Sublime Text 3` in OS X.
+* Copy the file [trailing_spaces.sublime-settings](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/trailing_spaces.sublime-settings) in the folder
+    * `C:\Users\{username}\AppData\Roaming\Sublime Text 3\Packages\User` in windows
+    * ` ~/Library/Application Support/Sublime Text 3` in OS X.
 
 
 ### ![Emmet Logo](http://emmet.io/i/logo.svg) [Emmet](http://emmet.io/)
@@ -267,8 +262,10 @@ The default key binding is `ctrl` `shift` `t`, the same of the default sublime r
 
 * Copy the file
     * [Default (Windows).sublime-keymap](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/Terminal/Default%20(Windows).sublime-keymap) in the folder `C:\Users\{username}\AppData\Roaming\Sublime Text 3\Packages\Terminal` in windows
+
     * [Default (OSX).sublime-keymap](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/Terminal/Default%20(OSX).sublime-keymap) in the folder `~/Library/Application Support/Sublime Text 3/Packages/Terminal` in OS X
-    * [Default (Linux).sublime-keymap](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/Terminal/Default%20(Linux).sublime-keymap) in the folder `~/.config/sublime-text-3/Packages/Terminal` in OS X
+
+    * [Default (Linux).sublime-keymap](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/Terminal/Default%20(Linux).sublime-keymap) in the folder `~/.config/sublime-text-3/Packages/Terminal` in Linux
 
 ### [![GhostText for Sublime Text](https://raw.githubusercontent.com/Cacodaimon/GhostText-for-Chrome/master/promo/gt_banner-for-sublimetext.png)](https://github.com/Cacodaimon/GhostText-for-SublimeText)
 
