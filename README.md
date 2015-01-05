@@ -13,6 +13,7 @@ Download and install [Sublime Text](http://www.sublimetext.com/).
 [http://www.sublimetext.com/3](http://www.sublimetext.com/3)
 
 ## Summary
+* [Preferences](#preferences)
 * [Key Bindings](#key-bindings)
 * [Snippets](#snippets)
 * [Packages](#packages)
@@ -20,6 +21,11 @@ Download and install [Sublime Text](http://www.sublimetext.com/).
 * [Working With Markdown](#working-with-markdown-)
 * [Reminders](#reminders)
 
+## Preferences
+
+<!--
+[Preferences.sublime-settings](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Sublime%20Settings/Preferences.sublime-settings)
+-->
 
 ## Key Bindings
 
