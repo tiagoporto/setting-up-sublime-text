@@ -12,6 +12,73 @@ Download and install [Sublime Text](http://www.sublimetext.com/).
 
 [http://www.sublimetext.com/3](http://www.sublimetext.com/3)
 
+## Summary
+* [Key Bindings](#key-bindings)
+* [Snippets](#snippets)
+* [Packages](#packages)
+* [Additional Syntax Support](#additional-syntax-support)
+* [Working with Markdown](#working-with-markdown)
+* [Reminders](#reminders)
+
+
+## Key Bindings
+
+All key bindings are configurable, you can change default key bindings or create new.
+
+<!--
+### Mac OS
+
+`Super` `b` = `<strong>selection</strong>`
+
+`Super` `i` = `<em>selection</em>`
+
+`Super` `u` = `<u>selection</u>`
+
+`Super` `alt` `7` = `encode_html_entities`
+
+### Windows
+
+`Ctrl` `b` = `<strong>selection</strong>`
+
+`Ctrl` `i` = `<em>selection</em>`
+
+`Ctrl` `u` = `<u>selection</u>`
+
+`Ctrl` `alt` `7` = `encode_html_entities`
+-->
+
+
+## Snippets
+
+> Snippets are smart templates that will insert text for you and adapt it to their context.
+
+### How it works
+
+The snippets are triggered with the `tab` key after the snippet access string.
+
+Example
+
+When you write `jquery` and press `tab`, the Sublime Text identifies you need snippet `jQuery Fallback` and replaces the entire access sequence throughout the template. You can still edit some parts of the template by pressing `tab` to pass between the editable parts.
+
+![Snippets Usage Example](Screenshots/snippet.gif)
+
+<!--
+Local Folder
+
+* Windows
+
+`C:\Users\{username}\AppData\Roaming\Sublime Text 3\Packages\User`
+
+[Readme](https://gist.github.com/zenorocha/4526327) - Snippet from Zeno Rocha
+
+-->
+
+### Creating your own snippets
+
+<!--
+`ctrl` `shift` `alt` `p`
+-->
+
 ## Packages
 
 Packages in Sublime Text are a collection of resource files used to extend functionalities, they can be: plugins, syntax highlighting, menus, snippets...
@@ -285,49 +352,11 @@ Plugin to live preview markup files.
 * `ctrl` `shift` `p`
 * Select `OmniMarkupPreviewer: Preview Current Markup in Browser`
 
-
-
-<!--
-## Snippets
-
-Local Folder
-
-* Windows
-
-`C:\Users\{username}\AppData\Roaming\Sublime Text 3\Packages\User`
-
-[Readme](https://gist.github.com/zenorocha/4526327) - Snippet from Zeno Rocha
-
-### Creating your own snippets
-
-`ctrl` `shift` `alt` `p`
-
-## Key Bindings
-
-### Mac OS
-
-Super + b = `<strong>selection</strong>`
-
-Super + i = `<em>selection</em>`
-
-Super + u = `<u>selection</u>`
-
-Super + alt + 7 = `encode_html_entities`
-
-### Windows
-
-Ctrl + b = `<strong>selection</strong>`
-
-Ctrl + i = `<em>selection</em>`
-
-Ctrl + u = `<u>selection</u>`
-
-Ctrl + alt + 7 = `encode_html_entities`
-
 ## Reminders
 
-If you're like me and always confused with a lot of shortcuts, it's for us.
+If you're like me and always confused with a lot of shortcuts, it's for us. A list of useful shortcuts.
 
+<!--
 ### Multiple Selection
 
 `Ctrl+D` on Windows and Linux, or `Command+D` on OS X Quick Add Next
@@ -340,7 +369,6 @@ If you're like me and always confused with a lot of shortcuts, it's for us.
 
  if you go too far, use Undo Selection (Ctrl+U, or Command+U on OS X) to step backwards
 
-
 * `ctrl` `k` `ctrl` `v` = Paste History
 * `f11` = full screen
 * `shift` `f11` = distract mode
@@ -350,7 +378,10 @@ If you're like me and always confused with a lot of shortcuts, it's for us.
 ### Workspace
 
 * Layout in 2 columns `view/layout/Columns:2` or `alt+shift+2`
+* -->
 
+
+<!--
 http://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2/lessons/your-first-snippet
 
 [Comment Snippets](https://github.com/hachesilva/Comment-Snippets)
