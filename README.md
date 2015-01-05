@@ -17,7 +17,7 @@ Download and install [Sublime Text](http://www.sublimetext.com/).
 * [Snippets](#snippets)
 * [Packages](#packages)
 * [Additional Syntax Support](#additional-syntax-support)
-* [Working with Markdown](#working-with-markdown)
+* [Working With Markdown](#working-with-markdown-)
 * [Reminders](#reminders)
 
 
@@ -56,7 +56,7 @@ All key bindings are configurable, you can change default key bindings or create
 
 The snippets are triggered with the `tab` key after the snippet access string.
 
-Example
+#### Example
 
 When you write `jquery` and press `tab`, the Sublime Text identifies you need snippet `jQuery Fallback` and replaces the entire access sequence throughout the template. You can still edit some parts of the template by pressing `tab` to pass between the editable parts.
 
