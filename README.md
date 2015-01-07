@@ -12,7 +12,7 @@ Download and install [Sublime Text](http://www.sublimetext.com/).
 
 [http://www.sublimetext.com/3](http://www.sublimetext.com/3)
 
-## Summary
+## Table of Contents
 * [Preferences](#preferences)
 * [Key Bindings](#key-bindings)
 * [Snippets](#snippets)
@@ -62,15 +62,22 @@ When you write `jquery` and press `tab`, the Sublime Text identifies you need sn
 
 ![Snippets Usage Example](Screenshots/snippet.gif)
 
+### My Snippets
+
 <!--
+If you want use some of this snippets
 Local Folder
 
 `C:\Users\{username}\AppData\Roaming\Sublime Text 3\Packages\User`
+-->
 
 * [Readme](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Snippets/Readme%20File.sublime-snippet)
 
+    * [Example of readme Snippet](https://github.com/tiagoporto/setting-up-sublime-text/blob/master/readme-snippet-example.md)
 
--->
+    * To use write `readme` and press `tab`.
+
+
 
 ### Creating your own snippets
 

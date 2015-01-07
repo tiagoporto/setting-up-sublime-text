@@ -2,15 +2,58 @@
 <content><![CDATA[
 # ${1:Project Name}
 
-TODO: Write a project description
+{Write a project description}
+
+## Table of Contents
+
+* [Features](#features)
+* [Folder Structure](#folder-structure)
+* [Dependencies](#dependencies)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](license)
+
+## Features
+
+* {List all the project features}
+
+## Folder Structure
+
+```
+./
+├───┐
+│   ├─
+│   │
+│   └─
+│      │
+│      ├─
+│      │
+│      └─
+│         │
+│         ├─
+│         │
+│         └─
+│            │
+│            ├─
+│            │
+│            └─
+├──
+└──
+```
+
+## Dependencies
+
+{List the project dependencies}
+
 
 ## Installation
 
-TODO: Describe the installation process
+{Describe the installation process}
 
 ## Usage
 
-TODO: Write usage instructions
+{Write usage instructions}
 
 ## Contributing
 
@@ -20,17 +63,13 @@ TODO: Write usage instructions
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-## History
-
-TODO: Write history
-
 ## Credits
 
-TODO: Write credits
+{Write credits}
 
 ## License
 
-TODO: Write license
+${1:Project Name} is released under the terms of the [MIT license](http://opensource.org/licenses/MIT).
 ]]></content>
 <tabTrigger>readme</tabTrigger>
 </snippet>
