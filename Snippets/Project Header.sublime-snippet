@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+/*!
+	${1:Project Name}
+	Version: ${2:x}.${3:x}.${4:x}
+	Author: ${5:Name} - ${6:Site}
+	${7:Project Home page}
+	Contact: ${8:email}
+*/
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>project-header</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -62,6 +62,8 @@ When you write `jquery` and press `tab`, the Sublime Text identifies you need sn
 
 ![Snippets Usage Example](Screenshots/snippet.gif)
 
+[Comment Snippets](https://github.com/hachesilva/Comment-Snippets)
+
 ### My Snippets
 
 <!--
@@ -82,6 +84,7 @@ Local Folder
 ### Creating your own snippets
 
 <!--
+http://web-design-weekly.com/2012/07/03/snippets-in-sublime-text-2/
 `ctrl` `shift` `alt` `p`
 -->
 
@@ -254,6 +257,18 @@ Useful for quick check CSS property support on the [Can I Use site](http://caniu
 
 ![gulp screenshot](Screenshots/gulp.png)
 
+<!--[JavaScript Completions](https://github.com/pichillilorenzo/JavaScript-Completions)
+
+[PHP Completions Kit](https://github.com/gerardroche/sublime-phpck)
+
+[Alignment](https://github.com/wbond/sublime_alignment)
+ctrl+alt+a
+
+[<img src="http://csscomb.com/img/csscomb.jpg" alt="CSS Comb Logo" width="60"> CSS Comb](http://csscomb.com/)
+ctrl+shift+c
+
+[SublimeLinter](http://www.sublimelinter.com/)-->
+
 ##### Snippets
 
 * See the documentation on [sublime-gulp](https://github.com/NicoSantangelo/sublime-gulp)
@@ -393,15 +408,5 @@ If you're like me and always confused with a lot of shortcuts, it's for us. A li
 
 <!--
 http://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2/lessons/your-first-snippet
-
-[Comment Snippets](https://github.com/hachesilva/Comment-Snippets)
-[JavaScript Console snippets](https://github.com/caiogondim/js-console-sublime-snippets)
 https://realpython.com/blog/python/setting-up-sublime-text-3-for-full-stack-python-development/
-https://github.com/mrmartineau/Placeholders
-https://github.com/wbond/sublime_alignment
-http://csscomb.com/
-https://github.com/sobstel/SyncedSideBar
-https://github.com/purplefish32/sublime-text-2-wordpress
-https://github.com/SublimeLinter/SublimeLinter-for-ST2
-http://www.sublimelinter.com/en/latest/
  -->
