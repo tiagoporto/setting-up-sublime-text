@@ -8,16 +8,14 @@ This is not a step by step guide for anyone who starts with [Sublime Text](http:
 
 ## Sublime Text
 
-Download and install [Sublime Text](http://www.sublimetext.com/).
-
-[http://www.sublimetext.com/3](http://www.sublimetext.com/3)
+Download and install [Sublime Text 3](http://www.sublimetext.com/3).
 
 ## Table of Contents
 * [Preferences](#preferences)
 * [Key Bindings](#key-bindings)
 * [Snippets](#snippets)
 * [Packages](#packages)
-* [Additional Syntax Support](#additional-syntax-support)
+* [Additional Languages Support](#additional-languages-support)
 * [Working With Markdown](#working-with-markdown-)
 * [Reminders](#reminders)
 
@@ -52,8 +50,6 @@ All key bindings are configurable, you can change default key bindings or create
 
 > Snippets are smart templates that will insert text for you and adapt it to their context.
 
-### How it works
-
 The snippets are triggered with the `tab` key after the snippet access string.
 
 #### Example
@@ -74,28 +70,39 @@ When you write `jquery` and press `tab`, the Sublime Text identifies you need sn
 
 ### My Snippets
 
-If you want use some of this snippets, download the file and copy in local folder:
+If you want use some of this snippets, download the file and copy in your local folder:
 
-`C:\Users\{username}\AppData\Roaming\Sublime Text 3\Packages\User` in windows
+* `C:\Users\{username}\AppData\Roaming\Sublime Text 3\Packages\User` in windows
 
-` ~/Library/Application Support/Sublime Text 3/Packages/User` in OS X
+* ` ~/Library/Application Support/Sublime Text 3/Packages/User` in OS X
 
-`~/.config/sublime-text-3/Packages/User` in Linux.
+* `~/.config/sublime-text-3/Packages/User` in Linux
 
+#### [Readme](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Snippets/Readme%20File.sublime-snippet)
 
-* [Readme](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Snippets/Readme%20File.sublime-snippet)
+* [Example of readme Snippet](https://github.com/tiagoporto/setting-up-sublime-text/blob/master/readme-snippet-example.md)
 
-    * [Example of readme Snippet](https://github.com/tiagoporto/setting-up-sublime-text/blob/master/readme-snippet-example.md)
+* To use write `readme` and press `tab`.
 
-    * To use write `readme` and press `tab`.
+#### [Form Template](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Snippets/Form%20Template.sublime-snippet)
+* [Example of Form Template Snippet](https://github.com/tiagoporto/setting-up-sublime-text/blob/master/form-template-snippet-example.md)
 
-* [Form Template](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Snippets/Form%20Template.sublime-snippet)
-    * [Example of Form Template Snippet](https://github.com/tiagoporto/setting-up-sublime-text/blob/master/form-template-snippet-example.md)
+* To use write `form:template` and press `tab`.
 
-    * To use write `form:template` and press `tab`.
+#### [Placehold.it](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Snippets/Placehold%20it.sublime-snippet)
 
-* [Project Header](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Snippets/Project%20Header.sublime-snippet)
-    * Example
+* To use write `phit` and press `tab`.
+
+* Example
+
+    ```html
+    <!-- placehold.it package default image -->
+    <img alt="Alternate Text" src="http://placehold.it/600x400/0eafff/ffffff.png" />
+    ```
+
+#### [Project Header](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Snippets/Project%20Header.sublime-snippet)
+
+* Example
 
     ```css
     /*!
@@ -107,12 +114,12 @@ If you want use some of this snippets, download the file and copy in local folde
     \*/
     ```
 
-    * To use write `project-header` and press `tab`.
+* To use write `project-header` and press `tab`.
 
-
-### Creating your own snippets
 
 <!--
+### Creating your own snippets
+
 http://web-design-weekly.com/2012/07/03/snippets-in-sublime-text-2/
 `ctrl` `shift` `alt` `p`
 -->
@@ -276,9 +283,7 @@ Useful for quick check CSS property support on the [Can I Use site](http://caniu
 
 #### How to use
 
-##### Run Tasks
-
-> It's necessary a `gulpfile.js` in an open folder.
+> It's necessary a `gulpfile.js` in the open folder to run tasks.
 
 * `ctrl` `shift` `p`
 * Type `gulp`
@@ -286,21 +291,27 @@ Useful for quick check CSS property support on the [Can I Use site](http://caniu
 
 ![gulp screenshot](Screenshots/gulp.png)
 
-<!--[JavaScript Completions](https://github.com/pichillilorenzo/JavaScript-Completions)
+See the documentation on [sublime-gulp](https://github.com/NicoSantangelo/sublime-gulp) to snippets.
 
-[PHP Completions Kit](https://github.com/gerardroche/sublime-phpck)
+### [Alignment](https://github.com/wbond/sublime_alignment)
 
-[Alignment](https://github.com/wbond/sublime_alignment)
-ctrl+alt+a
+> A simple key-binding for aligning multi-line and multiple selections.
 
-[<img src="http://csscomb.com/img/csscomb.jpg" alt="CSS Comb Logo" width="60"> CSS Comb](http://csscomb.com/)
-ctrl+shift+c
+![Alignment Screenshot](Screenshots/Alignment.gif)
 
-[SublimeLinter](http://www.sublimelinter.com/)-->
+#### How to use
 
-##### Snippets
+* `ctrl` `alt` `a`
 
-* See the documentation on [sublime-gulp](https://github.com/NicoSantangelo/sublime-gulp)
+### [![CSS Comb Logo](https://raw.githubusercontent.com/csscomb/csscomb.js/master/logo.png) CSS Comb](http://csscomb.com/)
+
+Coding style formatter for CSS.
+
+#### How to use
+
+* `ctrl` `shift` `c`
+
+### [SublimeLinter](http://www.sublimelinter.com/)
 
 ### [Terminal](https://github.com/wbond/sublime_terminal)
 
@@ -308,12 +319,9 @@ ctrl+shift+c
 
 #### How to use
 
-##### Open Terminal at Project Folder
-* `ctrl` `alt` `shift` `t`
+* `ctrl` `alt` `shift` `t` - Open Terminal at Project Folder
 
-##### Open Terminal at File
-
-* `alt` `shift` `t`
+* `alt` `shift` `t` - Open Terminal at File
 
 The default key binding is `ctrl` `shift` `t`, the same of the default sublime reopen closed tab, I changed.
 
@@ -338,9 +346,19 @@ The default key binding is `ctrl` `shift` `t`, the same of the default sublime r
 
 * In Chrome, click the GhostText button in the upper-right corner to open up Sublime Text.
 
-## Additional Syntax Support
+## Additional Languages Support
 
 Sublime Text has support for multiple languages, that aren't supported by default it's possible to be added with packages.
+
+[JavaScript Completions](https://github.com/pichillilorenzo/JavaScript-Completions)
+
+This package adds autocompletion for JavaScript codes.
+
+![JavaScript Completions Example](https://camo.githubusercontent.com/f5fd60fb5e665a60891f04415afa3197965850c9/687474703a2f2f6935372e74696e797069632e636f6d2f3576363569612e676966)
+
+[PHP Completions Kit](https://github.com/gerardroche/sublime-phpck)
+
+Adds autocompletion for PHP codes.
 
 ### [<img src="http://lesscss.org/public/img/logo.png" alt="less logo" width="140">](https://github.com/danro/LESS-sublime)
 
