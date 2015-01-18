@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/${1:1.2.13}/angular.min.js"></script>
- <script>
-    window.angular || document.write('<script src="scripts/vendor/angular-${1:1.2.13}.min.js"><\/script>');
- </script>
-]]></content>
-	<tabTrigger>angularjs</tabTrigger>
-</snippet>

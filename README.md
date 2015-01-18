@@ -13,13 +13,17 @@ Download and install [Sublime Text 3](http://www.sublimetext.com/3).
 ## Table of Contents
 * [Preferences](#preferences)
 * [Key Bindings](#key-bindings)
+    * [Reminders](#reminders)
 * [Snippets](#snippets)
 * [Packages](#packages)
 * [Additional Languages Support](#additional-languages-support)
 * [Working With Markdown](#working-with-markdown-)
-* [Reminders](#reminders)
 
 ## Preferences
+
+> Sublime Text has many different settings to customize its behavior. Settings are changed by editing text files
+
+You can set your preferences in `Preferences.sublime-settings`.
 
 <!--
 [Preferences.sublime-settings](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Sublime%20Settings/Preferences.sublime-settings)
@@ -36,7 +40,6 @@ All key bindings are configurable, you can change default key bindings or create
 
 * [Default (Linux).sublime-keymap](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Sublime%20Settings/Default%20(Linux).sublime-keymap) in the folder `~/.config/sublime-text-3/Packages/User` in Linux.
 
-
 `Ctrl` `b` on windows or Linux and `Super` `b` on OS X  = `<strong>selection</strong>`
 
 `Ctrl` `i` on windows or Linux and `Super` `i` on OS X = `<em>selection</em>`
@@ -45,6 +48,34 @@ All key bindings are configurable, you can change default key bindings or create
 
 `Ctrl` `alt` `7` on windows or Linux and `Super` `alt` `7` on OS X = `encode_html_entities`
 -->
+
+### Reminders
+
+If you're like me and always confused with a lot of shortcuts, it's for us. A list of useful shortcuts.
+
+<!--
+### Multiple Selection
+
+`Ctrl+D` on Windows and Linux, or `Command+D` on OS X Quick Add Next
+
+* `Alt+F3` on Windows and Linux, or `Ctrl+Command+G` on OS X. Find All
+
+`Ctrl+Shift+L` or `Command+Shift+L` on OS X. Splitting the Selection into Lines
+
+`Ctrl+K,Ctrl+D` on Windows and Linux, or `Command+K,Command+D` on OS X. Quick Skip Next
+
+ if you go too far, use Undo Selection (Ctrl+U, or Command+U on OS X) to step backwards
+
+* `ctrl` `k` `ctrl` `v` = Paste History
+* `f11` = full screen
+* `shift` `f11` = distract mode
+* `ctrl` `shift` `t` = Reopen Closed Tab
+* `ctrl` `shift` `a` = expand selection to tag
+
+### Workspace
+
+* Layout in 2 columns `view/layout/Columns:2` or `alt+shift+2`
+* -->
 
 ## Snippets
 
@@ -421,35 +452,6 @@ Plugin to live preview markup files.
 * Open the markdown file
 * `ctrl` `shift` `p`
 * Select `OmniMarkupPreviewer: Preview Current Markup in Browser`
-
-## Reminders
-
-If you're like me and always confused with a lot of shortcuts, it's for us. A list of useful shortcuts.
-
-<!--
-### Multiple Selection
-
-`Ctrl+D` on Windows and Linux, or `Command+D` on OS X Quick Add Next
-
-* `Alt+F3` on Windows and Linux, or `Ctrl+Command+G` on OS X. Find All
-
-`Ctrl+Shift+L` or `Command+Shift+L` on OS X. Splitting the Selection into Lines
-
-`Ctrl+K,Ctrl+D` on Windows and Linux, or `Command+K,Command+D` on OS X. Quick Skip Next
-
- if you go too far, use Undo Selection (Ctrl+U, or Command+U on OS X) to step backwards
-
-* `ctrl` `k` `ctrl` `v` = Paste History
-* `f11` = full screen
-* `shift` `f11` = distract mode
-* `ctrl` `shift` `t` = Reopen Closed Tab
-* `ctrl` `shift` `a` = expand selection to tag
-
-### Workspace
-
-* Layout in 2 columns `view/layout/Columns:2` or `alt+shift+2`
-* -->
-
 
 <!--
 http://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2/lessons/your-first-snippet
