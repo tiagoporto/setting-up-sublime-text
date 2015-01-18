@@ -144,14 +144,14 @@ Package Control manage all packages, makes it simple to find, install, remove an
 
 #### How to use
 
-Installing packages
+##### Installing packages
 
 * `ctrl` `shift` `p`
 * Type `install`
 * Select `Package Control: Install Package`
 * Search the package you want to install
 
-Removing packages
+##### Removing packages
 
 * `ctrl` `shift` `p`
 * Type `remove`
@@ -260,8 +260,6 @@ Good plugin to help write documentation in __JavaScript__, __PHP__, __CofeeScrip
 ### [SFTP](http://wbond.net/sublime_packages/sftp)
 
 FTP, FTPS and SFTP support for Sublime Text.
-
-![Screenshot SFTP](http://wbond.net/sublime_packages/img/sftp/sidebar_menu_unconfigured.png)
 
 ![Screenshots SFTP](http://wbond.net/sublime_packages/img/sftp/sidebar_menu_configured.png)
 
