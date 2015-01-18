@@ -62,16 +62,26 @@ When you write `jquery` and press `tab`, the Sublime Text identifies you need sn
 
 ![Snippets Usage Example](Screenshots/snippet.gif)
 
-[Comment Snippets](https://github.com/hachesilva/Comment-Snippets)
+### [Comment Snippets](https://github.com/hachesilva/Comment-Snippets)
+
+> Several snippets to create fancy PHP, CSS and HTML comments.
+
+![Comment Snippets Example](Screenshots/CommentSnippets.gif)
+
+### How it works
+
+[See the documentation](https://github.com/hachesilva/Comment-Snippets)
 
 ### My Snippets
 
-<!--
-If you want use some of this snippets
-Local Folder
+If you want use some of this snippets, download the file and copy in local folder:
 
-`C:\Users\{username}\AppData\Roaming\Sublime Text 3\Packages\User`
--->
+`C:\Users\{username}\AppData\Roaming\Sublime Text 3\Packages\User` in windows
+
+` ~/Library/Application Support/Sublime Text 3/Packages/User` in OS X
+
+`~/.config/sublime-text-3/Packages/User` in Linux.
+
 
 * [Readme](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Snippets/Readme%20File.sublime-snippet)
 
@@ -79,6 +89,25 @@ Local Folder
 
     * To use write `readme` and press `tab`.
 
+* [Form Template](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Snippets/Form%20Template.sublime-snippet)
+    * [Example of Form Template Snippet](https://github.com/tiagoporto/setting-up-sublime-text/blob/master/form-template-snippet-example.md)
+
+    * To use write `form:template` and press `tab`.
+
+* [Project Header](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Snippets/Project%20Header.sublime-snippet)
+    * Example
+
+    ```css
+    /*!
+        Project Name
+        Version: x.x.x
+        Author: Name - Site
+        Project Home page
+        Contact: email
+    \*/
+    ```
+
+    * To use write `project-header` and press `tab`.
 
 
 ### Creating your own snippets
@@ -317,7 +346,7 @@ Sublime Text has support for multiple languages, that aren't supported by defaul
 
 Provides syntax highlighting for less.
 
-### [<img src="http://sass-lang.com/assets/img/logos/logo-235e394c.png" alt="Sass Logo" width="100">](https://sublime.wbond.net/packages/Sass)
+### [<img src="http://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg" alt="Sass Logo" width="100">](https://sublime.wbond.net/packages/Sass)
 
 Provides syntax highlighting and tab/code completion for Sass and SCSS files.
 
