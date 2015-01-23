@@ -1,5 +1,8 @@
 # Setting Up Sublime Text 3
 
+<!-- [Clickable Urls](https://github.com/leonid-shevtsov/ClickableUrls_SublimeText)
+[Monaco](http://www.gringod.com/2006/11/01/new-version-of-monaco-font/) -->
+
 <p align="center"><img src="http://upload.wikimedia.org/wikipedia/en/4/4c/Sublime_Text_Logo.png" alt="Sublime Text Logo" width="120" ></p>
 
 This is not a step by step guide for anyone who starts with [Sublime Text](http://www.sublimetext.com/). These are the settings and reminders that fit in my workflow. You can choose what to install.
@@ -456,4 +459,5 @@ Plugin to live preview markup files.
 <!--
 http://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2/lessons/your-first-snippet
 https://realpython.com/blog/python/setting-up-sublime-text-3-for-full-stack-python-development/
+http://tableless.com.br/dicas-truques-sublime-text/?utm_content=buffer5dd8f&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer
  -->
