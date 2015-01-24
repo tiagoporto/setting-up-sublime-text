@@ -3,6 +3,8 @@
 <!-- [Clickable Urls](https://github.com/leonid-shevtsov/ClickableUrls_SublimeText)
 [Monaco](http://www.gringod.com/2006/11/01/new-version-of-monaco-font/) -->
 
+http://input.fontbureau.com/download/index.html?size=11&wrap_lines=wrap&language=clike&theme=solarized-dark&family=InputMono&width=300&weight=400&line-height=1.4&a=ss&g=ss&i=serifs_round&l=serifs_round&zero=slash&asterisk=0&braces=straight&preset=monaco&customize=please
+
 <p align="center"><img src="http://upload.wikimedia.org/wikipedia/en/4/4c/Sublime_Text_Logo.png" alt="Sublime Text Logo" width="120" ></p>
 
 This is not a step by step guide for anyone who starts with [Sublime Text](http://www.sublimetext.com/). These are the settings and reminders that fit in my workflow. You can choose what to install.
