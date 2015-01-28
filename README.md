@@ -33,6 +33,8 @@ You can set your preferences in `Preferences.sublime-settings`.
 
 ### Theme
 
+#### [colorsublime](http://colorsublime.com/)
+
 ### Font
 
 <!-- [Monaco](http://www.gringod.com/2006/11/01/new-version-of-monaco-font/)
