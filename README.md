@@ -39,7 +39,7 @@ You can set your preferences in `Preferences.sublime-settings`.
 
 <!-- [Monaco](http://www.gringod.com/2006/11/01/new-version-of-monaco-font/)
 
-http://input.fontbureau.com/download/index.html?size=11&wrap_lines=wrap&language=clike&theme=solarized-dark&family=InputMono&width=300&weight=400&line-height=1.4&a=ss&g=ss&i=serifs_round&l=serifs_round&zero=slash&asterisk=0&braces=straight&preset=monaco&customize=please
+http://input.fontbureau.com/download/index.html?family=InputMono&width=300&weight=400&line-height=1.3&a=ss&g=ss&i=serifs_round&l=serifs_round&zero=slash&asterisk=0&braces=straight&preset=monaco
 -->
 ## Key Bindings
 
