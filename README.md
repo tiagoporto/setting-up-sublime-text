@@ -12,8 +12,8 @@ Download and install [Sublime Text 3](http://www.sublimetext.com/3).
 
 ## Table of Contents
 * [Preferences](#preferences)
-* [Theme](#theme)
-* [Font](#font)
+    * [Theme](#theme)
+    * [Font](#font)
 * [Key Bindings](#key-bindings)
     * [Reminders](#reminders)
 * [Snippets](#snippets)
@@ -31,9 +31,9 @@ You can set your preferences in `Preferences.sublime-settings`.
 [Preferences.sublime-settings](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Sublime%20Settings/Preferences.sublime-settings)
 -->
 
-## Theme
+### Theme
 
-## Font
+### Font
 
 <!-- [Monaco](http://www.gringod.com/2006/11/01/new-version-of-monaco-font/)
 
@@ -104,7 +104,7 @@ When you write `jquery` and press `tab`, the Sublime Text identifies you need sn
 
 > Several snippets to create fancy PHP, CSS and HTML comments.
 
-![Comment Snippets Example](Screenshots/CommentSnippets.gif)
+![Comment Snippets Example](https://raw.githubusercontent.com/hachesilva/Comment-Snippets/master/CommentSnippets.gif)
 
 ### How it works
 
