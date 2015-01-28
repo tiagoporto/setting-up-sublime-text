@@ -1,10 +1,5 @@
 # Setting Up Sublime Text 3
 
-<!-- [Clickable Urls](https://github.com/leonid-shevtsov/ClickableUrls_SublimeText)
-[Monaco](http://www.gringod.com/2006/11/01/new-version-of-monaco-font/) -->
-
-http://input.fontbureau.com/download/index.html?size=11&wrap_lines=wrap&language=clike&theme=solarized-dark&family=InputMono&width=300&weight=400&line-height=1.4&a=ss&g=ss&i=serifs_round&l=serifs_round&zero=slash&asterisk=0&braces=straight&preset=monaco&customize=please
-
 <p align="center"><img src="http://upload.wikimedia.org/wikipedia/en/4/4c/Sublime_Text_Logo.png" alt="Sublime Text Logo" width="120" ></p>
 
 This is not a step by step guide for anyone who starts with [Sublime Text](http://www.sublimetext.com/). These are the settings and reminders that fit in my workflow. You can choose what to install.
@@ -17,6 +12,8 @@ Download and install [Sublime Text 3](http://www.sublimetext.com/3).
 
 ## Table of Contents
 * [Preferences](#preferences)
+* [Theme](#theme)
+* [Font](#font)
 * [Key Bindings](#key-bindings)
     * [Reminders](#reminders)
 * [Snippets](#snippets)
@@ -34,53 +31,62 @@ You can set your preferences in `Preferences.sublime-settings`.
 [Preferences.sublime-settings](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Sublime%20Settings/Preferences.sublime-settings)
 -->
 
+## Theme
+
+## Font
+
+<!-- [Monaco](http://www.gringod.com/2006/11/01/new-version-of-monaco-font/)
+
+http://input.fontbureau.com/download/index.html?size=11&wrap_lines=wrap&language=clike&theme=solarized-dark&family=InputMono&width=300&weight=400&line-height=1.4&a=ss&g=ss&i=serifs_round&l=serifs_round&zero=slash&asterisk=0&braces=straight&preset=monaco&customize=please
+-->
 ## Key Bindings
 
 All key bindings are configurable, you can change default key bindings or create new.
 
-<!--
+I have customized the following key bindings.
+
+`Ctrl` `b` on Windows/Linux and `Super` `b` on OS X  = `<strong>selection</strong>`
+
+`Ctrl` `i` on Windows/Linux and `Super` `i` on OS X = `<em>selection</em>`
+
+`Ctrl` `u` on Windows/Linux and `Super` `u` on OS X = `<u>selection</u>`
+
+### How to use
+
+Download the file and save on the right folder
+
 * [Default (Windows).sublime-keymap](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Sublime%20Settings/Default%20(Windows).sublime-keymap) in the folder `C:\Users\{username}\AppData\Roaming\Sublime Text 3\Packages\User` on Windows.
 
 * [Default (OSX).sublime-keymap](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Sublime%20Settings/Default%20(OSX).sublime-keymap) in the folder `~/Library/Application Support/Sublime Text 3/Packages/User` in OS X.
 
 * [Default (Linux).sublime-keymap](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Sublime%20Settings/Default%20(Linux).sublime-keymap) in the folder `~/.config/sublime-text-3/Packages/User` in Linux.
 
-`Ctrl` `b` on windows or Linux and `Super` `b` on OS X  = `<strong>selection</strong>`
-
-`Ctrl` `i` on windows or Linux and `Super` `i` on OS X = `<em>selection</em>`
-
-`Ctrl` `u` on windows or Linux and `Super` `u` on OS X = `<u>selection</u>`
-
-`Ctrl` `alt` `7` on windows or Linux and `Super` `alt` `7` on OS X = `encode_html_entities`
--->
-
 ### Reminders
 
-If you're like me and always confused with a lot of shortcuts, it's for us. A list of useful shortcuts.
+If you're like me and always confused with a lot of key bindings, it's for us. A list of useful shortcuts.
 
-<!--
-### Multiple Selection
+#### Workspace
 
-`Ctrl+D` on Windows and Linux, or `Command+D` on OS X Quick Add Next
-
-* `Alt+F3` on Windows and Linux, or `Ctrl+Command+G` on OS X. Find All
-
-`Ctrl+Shift+L` or `Command+Shift+L` on OS X. Splitting the Selection into Lines
-
-`Ctrl+K,Ctrl+D` on Windows and Linux, or `Command+K,Command+D` on OS X. Quick Skip Next
-
- if you go too far, use Undo Selection (Ctrl+U, or Command+U on OS X) to step backwards
-
-* `ctrl` `k` `ctrl` `v` = Paste History
 * `f11` = full screen
 * `shift` `f11` = distract mode
+* `alt` `shift` `2` = Layout in 2 columns
+* `alt` `shift` `8` = Layout in 2 rows
+
+#### Selection
+
+* `Ctrl` `d` on Windows/Linux, or `Command` `d` on OS X = Quick Add Next.
+* `Alt` `F3` on Windows/Linux, or `Ctrl` `Command` `g` on OS X = Find All
+* `Ctrl` `Shift` `l` or `Command` `Shift` `l` on OS X = Splitting the Selection into Lines
+* `Ctrl` `k`, `Ctrl` `d` on Windows/Linux, or `Command` `k` `Command` `d` on OS X = Quick Skip Next
+
+    if you go too far, use Undo Selection (`Ctrl` `u`, or `Command` `u` on OS X) to step backwards
+
+* `ctrl` `shift` `a` = Expand selection to tag
+
+#### Utilities
+
+* `ctrl` `k`, `ctrl` `v` = Paste History
 * `ctrl` `shift` `t` = Reopen Closed Tab
-* `ctrl` `shift` `a` = expand selection to tag
-
-### Workspace
-
-* Layout in 2 columns `view/layout/Columns:2` or `alt+shift+2`
-* -->
 
 ## Snippets
 
@@ -124,6 +130,7 @@ If you want use some of this snippets, download the file and copy in your local 
 * [Example of Form Template Snippet](https://github.com/tiagoporto/setting-up-sublime-text/blob/master/form-template-snippet-example.md)
 
 * To use write `form:template` and press `tab`.
+
 
 #### [Placehold.it](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Snippets/Placehold%20it.sublime-snippet)
 
@@ -284,6 +291,16 @@ Good plugin to help write documentation in __JavaScript__, __PHP__, __CofeeScrip
 ### How to use
 
 * Press enter or tab after `/**` (or `###*` for Coffee-Script).
+
+### [Clickable Urls](https://github.com/leonid-shevtsov/ClickableUrls_SublimeText)
+
+> Underlines URLs in Sublime Text, and lets you open them with a keystroke.
+
+### How to use
+
+* Put the cursor over an URL and press `Cmd` `Option` `Enter` or `Ctrl` `Alt` `Enter`
+
+This key binding cause conflict with default sublime key bindings, I switched to `Ctrl` `Alt` `Shift` `Enter`
 
 ### ![EditorConfig Logo](http://editorconfig.org/logo.png) [EditorConfig](http://editorconfig.org/)
 

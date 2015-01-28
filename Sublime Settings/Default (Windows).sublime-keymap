@@ -15,11 +15,5 @@
 		[
 			{ "key": "selector", "operator": "equal", "operand": "text.html.basic"}
 		]
-	},
-
-	{ "keys": ["ctrl+alt+7"], "command": "encode_html_entities", "context":
-		[
-			{ "key": "selector", "operator": "equal", "operand": "text.html.basic"}
-		]
 	}
 ]
