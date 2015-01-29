@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 <!-- placehold.it package default image -->
-<img alt="${1:Alternate Text}" src="http://placehold.it/${2:600}x${3:400}/${4:0eafff}/${5:ffffff}.png" />
+<img alt="${1:Alternate Text}" src="http://placehold.it/${2:600}x${3:400}/${4:0eafff}/${5:ffffff}.png&text=${6:text}" />
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>phit</tabTrigger>

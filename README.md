@@ -35,6 +35,12 @@ You can set your preferences in `Preferences.sublime-settings`.
 
 #### [colorsublime](http://colorsublime.com/)
 
+#### Creating your own Sublime Text color scheme
+
+##### [tmtheme-editor](http://tmtheme-editor.herokuapp.com/)
+
+##### [ColorSchemeEditor](https://github.com/bobef/ColorSchemeEditor)
+
 ### Font
 
 <!-- [Monaco](http://www.gringod.com/2006/11/01/new-version-of-monaco-font/)
