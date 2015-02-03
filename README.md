@@ -90,6 +90,8 @@ If you're like me and always confused with a lot of key bindings, it's for us. A
     if you go too far, use Undo Selection (`Ctrl` `u`, or `Command` `u` on OS X) to step backwards
 
 * `ctrl` `shift` `a` = Expand selection to tag
+* `ctrl` `k` `ctrl` `space` = Set Mark
+* `ctrl` `k` `ctrl` `x` = Swap with Mark
 
 #### Utilities
 
