@@ -1,0 +1,42 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"ApacheConf.tmLanguage",
+		"AutoFileName",
+		"BracketHighlighter",
+		"Can I Use",
+		"Clickable URLs",
+		"Color Highlighter",
+		"ColorPicker",
+		"Colorsublime",
+		"DocBlockr",
+		"EditorConfig",
+		"Emmet",
+		"GhostText",
+		"Gulp",
+		"JavaScript Completions",
+		"jQuery",
+		"Laravel Blade Highlighter",
+		"LESS",
+		"MarkdownEditing",
+		"OmniMarkupPreviewer",
+		"Package Control",
+		"PHP Completions Kit",
+		"Placehold.it Image Tag Generator",
+		"Sass",
+		"SFTP",
+		"SideBarEnhancements",
+		"Stylus",
+		"Stylus-Snippets",
+		"SublimeLinter",
+		"SublimeLinter-html-tidy",
+		"SublimeLinter-php",
+		"Tag",
+		"Terminal",
+		"TrailingSpaces"
+	]
+}

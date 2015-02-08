@@ -1,5 +1,7 @@
 # Setting Up Sublime Text 3
 
+<!-- https://github.com/orizens/html-extended -->
+
 <p align="center"><img src="http://upload.wikimedia.org/wikipedia/en/4/4c/Sublime_Text_Logo.png" alt="Sublime Text Logo" width="120" ></p>
 
 This is not a step by step guide for anyone who starts with [Sublime Text](http://www.sublimetext.com/). These are the settings and reminders that fit in my workflow. You can choose what to install.
@@ -20,6 +22,7 @@ Download and install [Sublime Text 3](http://www.sublimetext.com/3).
 * [Packages](#packages)
 * [Additional Languages Support](#additional-languages-support)
 * [Working With Markdown](#working-with-markdown-)
+* [Backing Up Sublime Text](#backing-up-sublime-text)
 
 ## Preferences
 
@@ -484,6 +487,17 @@ Plugin to live preview markup files.
 * Open the markdown file
 * `ctrl` `shift` `p`
 * Select `OmniMarkupPreviewer: Preview Current Markup in Browser`
+
+
+## Backing Up Sublime text
+
+If you need reinstall Sublime Text, the best way to install all you packages fast is backing up the file `Package Control.sublime-settings`. This file store all installed packages.
+
+To get the file, press `Ctrl` `Shift` `p` e type `Package Control Settings - User`.
+
+Before reinstall Sublime Text, you need install the [package control](#package-control) and do the same step before and past the old file and save, just restart the Sublime Text and they will install all the packages.
+
+
 
 <!--
 http://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2/lessons/your-first-snippet
