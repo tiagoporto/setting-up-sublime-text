@@ -95,6 +95,7 @@ If you're like me and always confused with a lot of key bindings, it's for us. A
 * `ctrl` `shift` `a` = Expand selection to tag
 * `ctrl` `k` `ctrl` `space` = Set Mark
 * `ctrl` `k` `ctrl` `x` = Swap with Mark
+* `ctrl` `r` = Jump to any heading in the document or the project and see the indentation level
 
 #### Utilities
 
@@ -395,6 +396,8 @@ The default key binding is `ctrl` `shift` `t`, the same of the default sublime r
     * [Default (OSX).sublime-keymap](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/Terminal/Default%20(OSX).sublime-keymap) in the folder `~/Library/Application Support/Sublime Text 3/Packages/Terminal` in OS X
 
     * [Default (Linux).sublime-keymap](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/Terminal/Default%20(Linux).sublime-keymap) in the folder `~/.config/sublime-text-3/Packages/Terminal` in Linux
+
+ ### [Icon-Fonts-Sublime-Text](https://github.com/idleberg/Icon-Fonts-Sublime-Text)
 
 ### [![GhostText for Sublime Text](https://raw.githubusercontent.com/Cacodaimon/GhostText-for-Chrome/master/promo/gt_banner-for-sublimetext.png)](https://github.com/Cacodaimon/GhostText-for-SublimeText)
 
