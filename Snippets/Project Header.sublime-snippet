@@ -3,8 +3,8 @@
 /*!
 *	${1:Project Name} v${2:1}.${3:0}.${4:0}
 *	${5:Project Home page}
-*	Copyright ${6:year} ${7:Author Name} (${8:Site})
-*	Released under the ${9:MIT} license
+*	Copyright (c) ${6:initialyear}-${7:atualyear} ${8:Author Name} (${9:Site})
+*	Released under the ${10:MIT} license
 */
 ]]></content>
 	<tabTrigger>project-header</tabTrigger>

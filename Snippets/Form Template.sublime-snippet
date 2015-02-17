@@ -1,67 +1,55 @@
 <snippet>
 	<content><![CDATA[
-<form action="form.php" method="POST" id="my-semantic-form">
-	    <fieldset>
-			<legend>My Semantic Form</legend>
+<form action="#" method="POST">
+	<fieldset>
+		<legend>My Semantic Form</legend>
 
-			<p>
-				<label for="user-name">User name*</label>
-				<!--letters-->
-				<input type="text" id="user-name" maxlength="10" name="userName" pattern="[a-z\s]+\$" aria-required="true" required>
+		<p>
+			<label for="username">Username*</label>
+			<input id="username" type="text" name="username" maxlength="10" aria-required="true" required>
 
-			</p>
+		</p>
 
-				<input type="text" id="tel" name="userName" pattern="[0-9]{2}\/[0-9]{2}\/[0-9]{4}\$">
+		<p>
+			<label for="email">Email*</label>
+			<input id="email" type="email" name="email" required>
+		</p>
 
-			<p>
-				<!--Email-->
-				<label for="mail">Email:</label>
-				<input type="email" id="mail" name="mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}\$">
-			</p>
+		<p>
+			<label for="birthday">Birthday</label>
+			<input id="birthday" type="text" maxlength="10" name="birthday" pattern="[0-9]{2}\/[0-9]{2}\/[0-9]{4}\$">
+		</p>
 
-			<p>
-				<!--Numbers-->
-				<input type="text" name="numbers" pattern="[0-9]+\$" />
+		<p>
+			<label for="hour">Hour</label>
+			<input id="hour" type="text" maxlength="8" name="hour" pattern="[0-9]{2}:[0-9]{2} [0-9]{2}\$">
+		</p>
 
-			</p>
+		<p>
+			<input type="range" name="points" min="0" max="10">
+		</p>
 
-			<p>
-				<!--Numbers-->
-				<input type="number" name="numbers" />
-			</p>
+		<p>
+			<label for="phone">Phone</label>
+			<input id="phone" type="text" name="phone" maxlength="15" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}\$">
+		</p>
 
-			<p>
-				<!--Date-->
-				<input type="date" name="date"  min="1990-01-01" max="2014-12-30" />
-				<input type="text" maxlength="10" name="date" pattern="[0-9]{2}\/[0-9]{2}\/[0-9]{4}\$" min="1990-01-01" max="2014-12-30" />
-			</p>
-
-			<p>
-				<!--Hour-->
-				<input type="time" name="hour" />
-				<input type="text" maxlength="8" name="hour" pattern="[0-9]{2}:[0-9]{2} [0-9]{2}\$" />
-			</p>
-
-
-			<p>
-				<!--Phone-->
-				<input type="tel" maxlength="15" name="phone" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}\$" />
-			</p>
-
-			<p><label for="">Radio</label><p>
+		<p>
+			<label>Sex</label>
 
 			<input type="radio" name="sex" value="male" checked>Male
-			<input type="radio" name="sex" value="female">Female</p>
+			<input type="radio" name="sex" value="female">Female
+		<p>
 
-			<p>
-				<input type="checkbox" name="vehicle" value="Bike"> I have a bike
-				<input type="checkbox" name="vehicle" value="Car"> I have a car
-			</p>
+		<p>
+			<label>Checkbox</label>
 
-			<input type="color" name="favcolor">
+			<input type="checkbox" name="vehicle" value="Bike"> I have a bike
+			<input type="checkbox" name="vehicle" value="Car"> I have a car
+		</p>
 
-
-			<label id="choose2">Drop:</label>
+		<p>
+			<label id="choose2">Drop</label>
 
 			<select name="choose">
 				<optgroup label="Swedish Cars">
@@ -73,29 +61,31 @@
 					<option value="audi">Audi</option>
 				</optgroup>
 			</select>
+		</p>
 
-			<p>
-				<label for="comment">Endereço:</label>
-			</p>
+		<p>
+			<label for="comment">Comment</label>
 
-			<p>
-				<textarea id="comment" name="comment" rows="3" cols="50"></textarea>
-			</p>
+			<textarea id="comment" name="comment" rows="3" cols="50"></textarea>
+		</p>
 
 
-			Select a file: <input type="file" name="img">
+		Send a file <input type="file" name="file">
 
-	    </fieldset>
 
 		<input type="hidden" name="userID" value="1">
+	</fieldset>
 
-		<p><em>* Required Fields</em></p>
+	<fieldset>
+		<label for="password">Password</label>
+		<input id="password" type="password" name="password">
+	</fieldset>
 
-	    <input type="submit" class="submit">
-	</form>
+	<p><em>* Required Fields</em></p>
+
+	<button type="submit">Send</button>
+</form>
 ]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>form:template</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
+	<scope>text.html, source.php</scope>
 </snippet>

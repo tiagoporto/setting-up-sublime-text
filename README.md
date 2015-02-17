@@ -163,12 +163,11 @@ If you want use some of this snippets, download the file and copy in your local 
 
     ```css
     /*!
-        Project Name
-        Version: x.x.x
-        Author: Name - Site
-        Project Home page
-        Contact: email
-    \*/
+    *   Project Name v1.0.0
+    *   Project Home page
+    *   Copyright (c) initialyear-atualyear Author Name (Site)
+    *   Released under the MIT license
+    */
     ```
 
 * To use write `project-header` and press `tab`.
