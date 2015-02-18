@@ -4,7 +4,7 @@
 
 <p align="center"><img src="http://upload.wikimedia.org/wikipedia/en/4/4c/Sublime_Text_Logo.png" alt="Sublime Text Logo" width="120" ></p>
 
-This is not a step by step guide for anyone who starts with [Sublime Text](http://www.sublimetext.com/). These are the settings and reminders that fit in my workflow. You can choose what to install.
+This is not a step by step guide for anyone who starts with [Sublime Text](http://www.sublimetext.com/). These are the settings and reminders that fit in my workflow. You can choose what is the best for you.
 
 > If they are useful to me, may also be useful for you.
 
@@ -26,30 +26,89 @@ Download and install [Sublime Text 3](http://www.sublimetext.com/3).
 
 ## Preferences
 
-> Sublime Text has many different settings to customize its behavior. Settings are changed by editing text files
+> Sublime Text has many different settings to customize its behavior. Settings are changed by editing text files.
 
-You can set your preferences in `Preferences.sublime-settings`.
+You can set your preferences like, font size, margin, theme and more in `Preferences.sublime-settings`. I like to use this options.
 
-<!--
-[Preferences.sublime-settings](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Sublime%20Settings/Preferences.sublime-settings)
--->
+```json
+{
+    // Spacing between the gutter and the text
+    "margin": 0,
 
-### Theme
+    // Set to false to disable detection of tabs vs. spaces on load
+    "detect_indentation": false,
 
-#### [colorsublime](http://colorsublime.com/)
+    // Disables horizontal scrolling if enabled.
+    // May be set to true, false, or "auto", where it will be disabled for
+    // source code, and otherwise enabled.
+    "word_wrap": true,
 
-#### Creating your own Sublime Text color scheme
+    // Controls how the indent guides are drawn, valid options are
+    // "draw_normal" and "draw_active". draw_active will draw the indent
+    // guides containing the caret in a different color.
+    "indent_guide_options":
+        [
+            "draw_normal",
+            "draw_active"
+        ],
 
-##### [tmtheme-editor](http://tmtheme-editor.herokuapp.com/)
+    // Set to true to removing trailing white space on save
+    "trim_trailing_white_space_on_save": true,
 
-##### [ColorSchemeEditor](https://github.com/bobef/ColorSchemeEditor)
+    // The delay, in ms, before the auto complete window is shown after typing
+    "auto_complete_delay": 5,
+
+    // Makes tabs with modified files more visible
+    "highlight_modified_tabs": true
+}
+```
+
 
 ### Font
 
-<!-- [Monaco](http://www.gringod.com/2006/11/01/new-version-of-monaco-font/)
+You can change the default font used in sublime.
 
-http://input.fontbureau.com/download/index.html?family=InputMono&width=300&weight=400&line-height=1.3&a=ss&g=ss&i=serifs_round&l=serifs_round&zero=slash&asterisk=0&braces=straight&preset=monaco
--->
+Personal I like to use [Monaco](http://www.gringod.com/2006/11/01/new-version-of-monaco-font/).
+
+```json
+{
+    // Set the family Font
+    "font_face": "Monaco",
+
+    // Set the font size
+    "font_size": 8
+}
+```
+
+
+If you like more control over typography, the [Input Typeface](http://input.fontbureau.com/) is a big family of Font Bureau and can be a good option, they has customs options, you can choose the line-heigth and differents glyphs or use the preset of other fonts.
+
+[Input Family with Monaco Preset](http://input.fontbureau.com/download/index.html?family=InputMono&width=300&weight=400&line-height=1.3&a=ss&g=ss&i=serifs_round&l=serifs_round&zero=slash&asterisk=0&braces=straight&preset=monaco)
+
+
+### Theme
+
+If you don't like of the Monokai, the default theme of Sublime you can change it. By default Sublime there are some fews options.
+
+`Menu Bar` > `Preferences` > `Color Schema` > `Color Schema Default` > `Default Themes`
+
+You also download a theme by Package Control.
+
+#### [colorsublime](http://colorsublime.com/)
+This is a good plugin that help you to preview themes before install.
+
+#### Creating your own Sublime Text theme
+
+On the other hand, may you want your own theme.
+
+##### [tmtheme-editor](http://tmtheme-editor.herokuapp.com/)
+
+This is a web editor that you can make your theme and donwload.
+
+##### [ColorSchemeEditor](https://github.com/bobef/ColorSchemeEditor)
+
+This package helps you edit a theme directly in the Sublime Text.
+
 ## Key Bindings
 
 All key bindings are configurable, you can change default key bindings or create new.
@@ -89,9 +148,7 @@ If you're like me and always confused with a lot of key bindings, it's for us. A
 * `Alt` `F3` on Windows/Linux, or `Ctrl` `Command` `g` on OS X = Find All
 * `Ctrl` `Shift` `l` or `Command` `Shift` `l` on OS X = Splitting the Selection into Lines
 * `Ctrl` `k`, `Ctrl` `d` on Windows/Linux, or `Command` `k` `Command` `d` on OS X = Quick Skip Next
-
-    if you go too far, use Undo Selection (`Ctrl` `u`, or `Command` `u` on OS X) to step backwards
-
+    * if you go too far, use Undo Selection (`Ctrl` `u`, or `Command` `u` on OS X) to step backwards
 * `ctrl` `shift` `a` = Expand selection to tag
 * `ctrl` `k` `ctrl` `space` = Set Mark
 * `ctrl` `k` `ctrl` `x` = Swap with Mark
@@ -456,7 +513,7 @@ Code completion, snippets, syntax file `HTML (Angular.js)` and more.
 
 Syntax Highlighting for .conf, .htaccess, .htgroups and .htpasswd
 
-### [![Laravel Logo](http://laravel.com/assets/img/logo-head.png) Blade](https://github.com/Medalink/laravel-blade)
+### [![Laravel Logo](http://laravel.com/assets/img/laravel-logo.png) Laravel Blade](https://github.com/Medalink/laravel-blade)
 
 Syntax definitions for the Laravel Blade engine.
 
