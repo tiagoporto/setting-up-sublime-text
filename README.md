@@ -39,12 +39,12 @@ You can set your preferences like, font size, margin, theme and more in `Prefere
     "detect_indentation": false,
 
     // Disables horizontal scrolling if enabled.
-    // May be set to true, false, or "auto", where it will be disabled for
+    // May be set to true, false, or 'auto', where it will be disabled for
     // source code, and otherwise enabled.
     "word_wrap": true,
 
     // Controls how the indent guides are drawn, valid options are
-    // "draw_normal" and "draw_active". draw_active will draw the indent
+    // 'draw_normal' and 'draw_active'. draw_active will draw the indent
     // guides containing the caret in a different color.
     "indent_guide_options":
         [
@@ -68,7 +68,7 @@ You can set your preferences like, font size, margin, theme and more in `Prefere
 
 You can change the default font used in sublime.
 
-Personal I like to use [Monaco](http://www.gringod.com/2006/11/01/new-version-of-monaco-font/).
+Personally I like to use the [Monaco](http://www.gringod.com/2006/11/01/new-version-of-monaco-font/) font.
 
 ```json
 {
@@ -81,7 +81,7 @@ Personal I like to use [Monaco](http://www.gringod.com/2006/11/01/new-version-of
 ```
 
 
-If you like more control over typography, the [Input Typeface](http://input.fontbureau.com/) is a big family of Font Bureau and can be a good option, they has customs options, you can choose the line-heigth and differents glyphs or use the preset of other fonts.
+If you like more control over typography, the [Input Font](http://input.fontbureau.com/) is a big family of Font Bureau and can be a good option, it has customs options, you can choose the line-heigth and differents glyphs or use the preset of other fonts.
 
 [Input Family with Monaco Preset](http://input.fontbureau.com/download/index.html?family=InputMono&width=300&weight=400&line-height=1.3&a=ss&g=ss&i=serifs_round&l=serifs_round&zero=slash&asterisk=0&braces=straight&preset=monaco)
 
