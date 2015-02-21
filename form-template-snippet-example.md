@@ -6,7 +6,6 @@
         <p>
             <label for="username">Username*</label>
             <input id="username" type="text" name="username" maxlength="10" aria-required="true" required>
-
         </p>
 
         <p>
@@ -15,13 +14,23 @@
         </p>
 
         <p>
+            <label for="disabled">Disabled</label>
+            <input id="disabled" type="text" name="disabled" disabled>
+        </p>
+
+        <p>
+            <label for="number">Number</label>
+            <input id="number" type="number" name="number" min="1" max="5">
+        </p>
+
+        <p>
             <label for="birthday">Birthday</label>
-            <input id="birthday" type="text" maxlength="10" name="birthday" pattern="[0-9]{2}\/[0-9]{2}\/[0-9]{4}\$">
+            <input id="birthday" type="text" maxlength="10" name="birthday" pattern="[0-9]{2}\/[0-9]{2}\/[0-9]{4}$">
         </p>
 
         <p>
             <label for="hour">Hour</label>
-            <input id="hour" type="text" maxlength="8" name="hour" pattern="[0-9]{2}:[0-9]{2} [0-9]{2}\$">
+            <input id="hour" type="text" maxlength="8" name="hour" pattern="[0-9]{2}:[0-9]{2} [0-9]{2}$">
         </p>
 
         <p>
@@ -30,21 +39,23 @@
 
         <p>
             <label for="phone">Phone</label>
-            <input id="phone" type="text" name="phone" maxlength="15" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}\$">
+            <input id="phone" type="text" name="phone" maxlength="15" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$">
         </p>
 
         <p>
             <label>Sex</label>
 
-            <input type="radio" name="sex" value="male" checked>Male
-            <input type="radio" name="sex" value="female">Female
+            <label><input type="radio" name="sex" value="male" checked>Male</label>
+
+            <label><input type="radio" name="sex" value="female">Female</label>
         <p>
 
         <p>
             <label>Checkbox</label>
 
-            <input type="checkbox" name="vehicle" value="Bike"> I have a bike
-            <input type="checkbox" name="vehicle" value="Car"> I have a car
+            <label><input type="checkbox" name="vehicle" value="Bike"> I have a bike</label>
+
+            <label><input type="checkbox" name="vehicle" value="Car"> I have a car</label>
         </p>
 
         <p>
@@ -76,12 +87,14 @@
     </fieldset>
 
     <fieldset>
-        <label for="password">Password</label>
-        <input id="password" type="password" name="password">
+        <p>
+            <label for="password">Password</label>
+            <input id="password" type="password" name="password">
+        </p>
     </fieldset>
 
     <p><em>* Required Fields</em></p>
 
     <button type="submit">Send</button>
 </form>
-``
+```

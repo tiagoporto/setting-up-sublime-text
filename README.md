@@ -220,9 +220,9 @@ If you want use some of this snippets, download the file and copy in your local 
 
     ```css
     /*!
-    *   Project Name v1.0.0
-    *   Project Home page
-    *   Copyright (c) initialyear-atualyear Author Name (Site)
+    *   My Project v1.0.0
+    *   http://myproject.com
+    *   Copyright (c) 2010-2015 Author Name (http://authorsite.com)
     *   Released under the MIT license
     */
     ```
