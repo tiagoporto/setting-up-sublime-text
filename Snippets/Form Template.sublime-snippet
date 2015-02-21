@@ -99,6 +99,6 @@
 	<button type="submit">Send</button>
 </form>
 ]]></content>
-	<tabTrigger>form:template</tabTrigger>
+	<tabTrigger>form-template</tabTrigger>
 	<scope>text.html.basic, source.php</scope>
 </snippet>

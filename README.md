@@ -191,17 +191,12 @@ If you want use some of this snippets, download the file and copy in your local 
 
 * `~/.config/sublime-text-3/Packages/User` in Linux
 
-#### [Readme](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Snippets/Readme%20File.sublime-snippet)
-
-* [Example of readme Snippet](https://github.com/tiagoporto/setting-up-sublime-text/blob/master/readme-snippet-example.md)
-
-* To use write `readme` and press `tab`.
 
 #### [Form Template](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Snippets/Form%20Template.sublime-snippet)
+
 * [Example of Form Template Snippet](https://github.com/tiagoporto/setting-up-sublime-text/blob/master/form-template-snippet-example.md)
 
-* To use write `form:template` and press `tab`.
-
+* To use write `form-template` and press `tab`.
 
 #### [Placehold.it](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Snippets/Placehold%20it.sublime-snippet)
 
@@ -229,6 +224,12 @@ If you want use some of this snippets, download the file and copy in your local 
 
 * To use write `project-header` and press `tab`.
 
+
+#### [Readme](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Snippets/Readme%20File.sublime-snippet)
+
+* [Example of readme Snippet](https://github.com/tiagoporto/setting-up-sublime-text/blob/master/readme-snippet-example.md)
+
+* To use write `readme` and press `tab`.
 
 <!--
 ### Creating your own snippets
