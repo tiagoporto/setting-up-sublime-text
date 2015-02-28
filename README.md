@@ -331,6 +331,9 @@ Emmet is the most essential plugin for web-developers, it helps you write HTML a
 * Read this great tutorial: [Goodbye, Zen Coding. Hello, Emmet!](http://www.smashingmagazine.com/2013/03/26/goodbye-zen-coding-hello-emmet/)
 * Learn the syntax in [Cheat Sheet](http://docs.emmet.io/cheat-sheet/)
 
+### [Emmet LiveStyle](http://livestyle.emmet.io/install/)
+
+
 ### [Color Picker](http://weslly.github.io/ColorPicker/)
 
 Open a Color Picker in Sublime Text.
