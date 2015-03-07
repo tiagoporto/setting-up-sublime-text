@@ -338,7 +338,7 @@ Emmet is the most essential plugin for web-developers, it helps you write HTML a
 
 Open a Color Picker in Sublime Text.
 
-![Mac OSX](http://i.minus.com/i5KI6SBAfs7Qk.png)
+![Windows screenshot](http://i.minus.com/iY1DDCRG5TsyR.png)
 
 #### How to use
 
@@ -477,6 +477,10 @@ The default key binding is `ctrl` `shift` `t`, the same of the default sublime r
 
 Sublime Text has support for multiple languages, that aren't supported by default it's possible to be added with packages.
 
+### [<img src="https://angularjs.org/img/AngularJS-large.png" alt="Angular JS Logo" width="170">](https://github.com/angular-ui/AngularJS-sublime-package)
+
+Code completion, snippets, syntax file `HTML (Angular.js)` and more.
+
 [JavaScript Completions](https://github.com/pichillilorenzo/JavaScript-Completions)
 
 This package adds autocompletion for JavaScript codes.
@@ -508,10 +512,6 @@ Provides syntax highlighting and tab/code completion for Sass and SCSS files.
 ### [![Jquery](http://upload.wikimedia.org/wikipedia/en/thumb/9/9e/JQuery_logo.svg/200px-JQuery_logo.svg.png)](https://github.com/SublimeText/jQuery)
 
 Provides syntax highlighting for jquery and snippets with methods.
-
-### [<img src="https://angularjs.org/img/AngularJS-large.png" alt="Angular JS Logo" width="170">](https://github.com/angular-ui/AngularJS-sublime-package)
-
-Code completion, snippets, syntax file `HTML (Angular.js)` and more.
 
 ### <img src="http://upload.wikimedia.org/wikipedia/commons/c/cd/ASF-logo.svg" alt="Apache Logo" width="90"> [Apache Conf](https://github.com/colinta/ApacheConf.tmLanguage)
 
