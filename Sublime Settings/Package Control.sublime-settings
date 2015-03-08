@@ -5,6 +5,7 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"AngularJS",
 		"ApacheConf.tmLanguage",
 		"AutoFileName",
 		"BracketHighlighter",

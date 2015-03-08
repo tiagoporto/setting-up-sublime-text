@@ -5,6 +5,9 @@
 	// Set the font size
 	"font_size": 8,
 
+	// Theme
+	"color_scheme": "Packages/User/SublimeLinter/Blackboard (SL).tmTheme",
+
 	// Spacing between the gutter and the text
 	"margin": 0,
 
