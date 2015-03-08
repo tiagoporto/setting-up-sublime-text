@@ -441,18 +441,11 @@ Coding style formatter for CSS.
 
 * `ctrl` `alt` `shift` `t` - Open Terminal at Project Folder
 
-* `alt` `shift` `t` - Open Terminal at File
+* `ctrl` `shift` `t` - Open Terminal at File -
+    
+    This key binding is the same of the default sublime reopen closed tab, I prefer to switch to `alt` `shift` `t`.
 
-The default key binding is `ctrl` `shift` `t`, the same of the default sublime reopen closed tab, I changed.
-
-* Copy the file
-    * [Default (Windows).sublime-keymap](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/Terminal/Default%20(Windows).sublime-keymap) in the folder `C:\Users\{username}\AppData\Roaming\Sublime Text 3\Packages\Terminal` in windows
-
-    * [Default (OSX).sublime-keymap](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/Terminal/Default%20(OSX).sublime-keymap) in the folder `~/Library/Application Support/Sublime Text 3/Packages/Terminal` in OS X
-
-    * [Default (Linux).sublime-keymap](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Packages%20Settings/Terminal/Default%20(Linux).sublime-keymap) in the folder `~/.config/sublime-text-3/Packages/Terminal` in Linux
-
- ### [Icon-Fonts-Sublime-Text](https://github.com/idleberg/Icon-Fonts-Sublime-Text)
+### [Icon-Fonts-Sublime-Text](https://github.com/idleberg/Icon-Fonts-Sublime-Text)
 
 ### [![GhostText for Sublime Text](https://raw.githubusercontent.com/Cacodaimon/GhostText-for-Chrome/master/promo/gt_banner-for-sublimetext.png)](https://github.com/Cacodaimon/GhostText-for-SublimeText)
 
