@@ -5,8 +5,15 @@
 	// Set the font size
 	"font_size": 8,
 
-	// Theme
+	// Color Scheme
 	"color_scheme": "Packages/User/SublimeLinter/Blackboard (SL).tmTheme",
+
+	// Theme
+	"theme": "Cyanide.sublime-theme",
+
+	"icon_file_type_enable": true,
+
+	"centurion_folder_icons": true,
 
 	// Spacing between the gutter and the text
 	"margin": 0,
