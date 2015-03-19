@@ -14,7 +14,7 @@ Download and install [Sublime Text 3](http://www.sublimetext.com/3).
 
 ## Table of Contents
 * [Preferences](#preferences)
-    * [Theme](#theme)
+    * [Theme and Color Schema](#theme-and-color-schema)
     * [Font](#font)
 * [Key Bindings](#key-bindings)
     * [Reminders](#reminders)
@@ -23,6 +23,7 @@ Download and install [Sublime Text 3](http://www.sublimetext.com/3).
 * [Additional Languages Support](#additional-languages-support)
 * [Working With Markdown](#working-with-markdown-)
 * [Backing Up Sublime Text](#backing-up-sublime-text)
+* [Creating Project](creating-project)
 
 ## Preferences
 
@@ -86,7 +87,7 @@ If you like more control over typography, the [Input Font](http://input.fontbure
 [Input Family with Monaco Preset](http://input.fontbureau.com/download/index.html?family=InputMono&width=300&weight=400&line-height=1.3&a=ss&g=ss&i=serifs_round&l=serifs_round&zero=slash&asterisk=0&braces=straight&preset=monaco)
 
 
-### Theme
+### Theme and Color Schema
 
 If you don't like of the Monokai, the default theme of Sublime you can change it. By default Sublime there are some fews options.
 
@@ -547,6 +548,29 @@ If you need reinstall Sublime Text, the best way to install all you packages fas
 To get the file, press `Ctrl` `Shift` `p` e type `Package Control Settings - User`.
 
 Before reinstall Sublime Text, you need install the [package control](#package-control) and do the same step before and past the old file and save, just restart the Sublime Text and they will install all the packages.
+
+## Creating Project
+
+### Remove folders and files from project
+
+Open the `.sublime-project` file
+
+Insert `folder_exclude_patterns` to ignore folders and `file_exclude_patterns` to ignore files.
+
+```
+{
+   "folders":
+   [
+      {
+         "path": "/home/jack/workspace/myproject",
+         "folder_exclude_patterns": ["*", "*"],
+         "file_exclude_patterns": ["*", "*"]
+      }
+   ]
+}
+```
+
+
 
 
 
