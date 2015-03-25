@@ -362,16 +362,6 @@ Good plugin to help write documentation in __JavaScript__, __PHP__, __CofeeScrip
 
 * Press enter or tab after `/**` (or `###*` for Coffee-Script).
 
-### [Clickable Urls](https://github.com/leonid-shevtsov/ClickableUrls_SublimeText)
-
-> Underlines URLs in Sublime Text, and lets you open them with a keystroke.
-
-### How to use
-
-* Put the cursor over an URL and press `Cmd` `Option` `Enter` or `Ctrl` `Alt` `Enter`
-
-This key binding cause conflict with default sublime key bindings, I switched to `Ctrl` `Alt` `Shift` `Enter`
-
 ### ![EditorConfig Logo](http://editorconfig.org/logo.png) [EditorConfig](http://editorconfig.org/)
 
 > EditorConfig helps developers define and maintain consistent coding styles between different editors and IDEs. The EditorConfig project consists of __a file format__ for defining coding styles and a collection of __text editor plugins__ that enable editors to read the file format and adhere to defined styles.
