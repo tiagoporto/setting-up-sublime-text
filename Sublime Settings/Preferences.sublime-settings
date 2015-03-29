@@ -6,7 +6,7 @@
 	"font_size": 8,
 
 	// Color Scheme
-	"color_scheme": "Packages/User/SublimeLinter/Blackboard (SL).tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Blackboard.tmTheme",
 
 	// Theme
 	"theme": "Cyanide.sublime-theme",
