@@ -61,7 +61,11 @@ You can set your preferences like, font size, margin, theme and more in `Prefere
     "auto_complete_delay": 5,
 
     // Makes tabs with modified files more visible
-    "highlight_modified_tabs": true
+    "highlight_modified_tabs": true,
+
+    // These files will still show up in the side bar, but won't be included in
+    // Goto Anything or Find in Files
+    "binary_file_patterns": [".DS_Store", ".gitignore", "node_modules/", "vendor/", "tmp/"]
 }
 ```
 
