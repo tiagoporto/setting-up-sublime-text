@@ -135,8 +135,6 @@ Download the file and save on the right folder
 
 * [Default (OSX).sublime-keymap](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Sublime%20Settings/Default%20(OSX).sublime-keymap) in the folder `~/Library/Application Support/Sublime Text 3/Packages/User` in OS X.
 
-* [Default (Linux).sublime-keymap](https://raw.githubusercontent.com/tiagoporto/setting-up-sublime-text/master/Sublime%20Settings/Default%20(Linux).sublime-keymap) in the folder `~/.config/sublime-text-3/Packages/User` in Linux.
-
 ### Reminders
 
 If you're like me and always confused with a lot of key bindings, it's for us. A list of useful shortcuts.
@@ -427,7 +425,7 @@ Coding style formatter for CSS.
 
 * `ctrl` `shift` `c`
 
-### [SublimeLinter](http://www.sublimelinter.com/)
+### [Cheat Sheets](https://github.com/dmikalova/sublime-cheat-sheets)
 
 ### [Terminal](https://github.com/wbond/sublime_terminal)
 
