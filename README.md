@@ -441,6 +441,8 @@ Coding style formatter for CSS.
 
 ### [Icon-Fonts-Sublime-Text](https://github.com/idleberg/Icon-Fonts-Sublime-Text)
 
+### [Ionic Framework](https://github.com/imsingh/ionic-sublime-plugin)
+
 ### [![GhostText for Sublime Text](https://raw.githubusercontent.com/Cacodaimon/GhostText-for-Chrome/master/promo/gt_banner-for-sublimetext.png)](https://github.com/Cacodaimon/GhostText-for-SublimeText)
 
 > Allows live editing of Chrome text area or JS Code editor content with Sublime Text.
