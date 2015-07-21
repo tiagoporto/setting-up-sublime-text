@@ -163,8 +163,9 @@ If you're like me and always confused with a lot of key bindings, it's for us. A
 <!-- https://gist.github.com/eteanga/1736542 -->
 
 #### Utilities
+
 | key binding | description |
-|-|-|
+| --- | --- |
 | `ctrl` `x` | cut the line |
 | `ctrl` `k` `k` | delete from cursor to end of line |
 | `ctrl` `k`, `ctrl` `v` | Paste History |
