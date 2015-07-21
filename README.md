@@ -127,6 +127,7 @@ I have customized the following key bindings.
 
 `Ctrl` `u` on Windows/Linux and `Super` `u` on OS X = `<u>selection</u>`
 
+
 ### How to use
 
 Download the file and save on the right folder
@@ -149,7 +150,8 @@ If you're like me and always confused with a lot of key bindings, it's for us. A
 #### Selection
 
 * `Ctrl` `d` on Windows/Linux, or `Command` `d` on OS X = Quick Add Next.
-* `Alt` `F3` on Windows/Linux, or `Ctrl` `Command` `g` on OS X = Find All
+* `Click the word` `Alt` `F3` on Windows/Linux, or `Click the word` `Ctrl` `Command` `g` on OS X = Find All
+    ![Alt text](Screenshots/quick-find-all.gif)
 * `Ctrl` `Shift` `l` or `Command` `Shift` `l` on OS X = Splitting the Selection into Lines
 * `Ctrl` `k`, `Ctrl` `d` on Windows/Linux, or `Command` `k` `Command` `d` on OS X = Quick Skip Next
     * if you go too far, use Undo Selection (`Ctrl` `u`, or `Command` `u` on OS X) to step backwards
@@ -158,10 +160,17 @@ If you're like me and always confused with a lot of key bindings, it's for us. A
 * `ctrl` `k` `ctrl` `x` = Swap with Mark
 * `ctrl` `r` = Jump to any heading in the document or the project and see the indentation level
 
+<!-- https://gist.github.com/eteanga/1736542 -->
+
 #### Utilities
 
-* `ctrl` `k`, `ctrl` `v` = Paste History
-* `ctrl` `shift` `t` = Reopen Closed Tab
+| `ctrl` `x` | cut the line |
+| `ctrl` `k` `k` | delete from cursor to end of line |
+| `ctrl` `k`, `ctrl` `v` | Paste History |
+| `ctrl` `shift` `t` | Reopen Closed Tab |
+
+
+### [Keymaps](https://github.com/MiroHibler/sublime-keymaps)
 
 ## Snippets
 
@@ -436,7 +445,7 @@ Coding style formatter for CSS.
 * `ctrl` `alt` `shift` `t` - Open Terminal at Project Folder
 
 * `ctrl` `shift` `t` - Open Terminal at File -
-    
+
     This key binding is the same of the default sublime reopen closed tab, I prefer to switch to `alt` `shift` `t`.
 
 ### [Icon-Fonts-Sublime-Text](https://github.com/idleberg/Icon-Fonts-Sublime-Text)
@@ -456,6 +465,8 @@ Coding style formatter for CSS.
 #### How to use
 
 * In Chrome, click the GhostText button in the upper-right corner to open up Sublime Text.
+
+### [SublimeServer](https://github.com/learning/SublimeServer)
 
 ## Additional Languages Support
 
