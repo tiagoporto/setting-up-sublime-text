@@ -24,7 +24,6 @@ Download and install [Sublime Text 3](http://www.sublimetext.com/3).
         - [Utilities](https://github.com/tiagoporto/setting-up-sublime-text/wiki/02-Key-Bindings#utilities)
     * [Custom Key Bindings](https://github.com/tiagoporto/setting-up-sublime-text/wiki/02-Key-Bindings#custom-key-bindings)
     * [Packages](https://github.com/tiagoporto/setting-up-sublime-text/wiki/02-Key-Bindings#packages)
-
 * [Snippets](https://github.com/tiagoporto/setting-up-sublime-text/wiki/03-Snippets)
 * [Packages](https://github.com/tiagoporto/setting-up-sublime-text/wiki/04-Packages)
 * [Additional Languages Support](https://github.com/tiagoporto/setting-up-sublime-text/wiki/05-Additional-Languages-Support)
