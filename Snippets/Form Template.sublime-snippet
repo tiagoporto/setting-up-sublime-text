@@ -6,12 +6,12 @@
 
 		<p>
 			<label for="username">Username*</label>
-			<input id="username" type="text" name="username" maxlength="10" aria-required="true" required>
+			<input id="username" type="text" name="username" maxlength="10" aria-required="true" placeholder="Insert username" aria-label="Insert username" required>
 		</p>
 
 		<p>
 			<label for="email">Email*</label>
-			<input id="email" type="email" name="email" required>
+			<input id="email" type="email" name="email" aria-required="true" required>
 		</p>
 
 		<p>
