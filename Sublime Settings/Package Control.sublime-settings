@@ -2,7 +2,6 @@
 	"installed_packages":
 	[
 		"Alignment",
-		"AngularJS",
 		"ApacheConf.tmLanguage",
 		"AutoFileName",
 		"BracketHighlighter",
@@ -34,6 +33,8 @@
 		"SideBarEnhancements",
 		"Stylus",
 		"Stylus-Snippets",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
 		"SublimeServer",
 		"SVG Icons",
 		"Tag",
