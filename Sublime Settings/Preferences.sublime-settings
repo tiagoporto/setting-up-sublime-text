@@ -33,7 +33,6 @@
 	// guides containing the caret in a different color.
 	"indent_guide_options":
 		[
-			"draw_normal",
 			"draw_active"
 		],
 
