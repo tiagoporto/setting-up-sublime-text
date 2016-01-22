@@ -40,6 +40,11 @@
 	// Set to true to removing trailing white space on save
 	"trim_trailing_white_space_on_save": true,
 
+	// Determines what character(s) are used to terminate each line in new files.
+	// Valid values are 'system' (whatever the OS uses), 'windows' (CRLF) and
+	// 'unix' (LF only).
+	"default_line_ending": "unix",
+
 	// The delay, in ms, before the auto complete window is shown after typing
 	"auto_complete_delay": 5,
 
