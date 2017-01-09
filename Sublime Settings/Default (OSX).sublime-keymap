@@ -1,19 +1,20 @@
 [
-	{ "keys": ["super+b"], "command": "insert_snippet", "args": {"contents": "<strong>${0:$SELECTION}</strong>" }, "context":
-		[
-			{ "key": "selector", "operator": "equal", "operand": "text.html.basic"}
-		]
-	},
+  { "keys": ["`"], "command": "insert_snippet", "args": {"contents": "`${0:$SELECTION}`"}  },
+  { "keys": ["super+b"], "command": "insert_snippet", "args": {"contents": "<strong>${0:$SELECTION}</strong>" }, "context":
+    [
+      { "key": "selector", "operator": "equal", "operand": "text.html.basic"}
+    ]
+  },
 
-	{ "keys": ["super+i"], "command": "insert_snippet", "args": {"contents": "<em>${0:$SELECTION}</em>" }, "context":
-		[
-			{ "key": "selector", "operator": "equal", "operand": "text.html.basic"}
-		]
-	},
+  { "keys": ["super+i"], "command": "insert_snippet", "args": {"contents": "<em>${0:$SELECTION}</em>" }, "context":
+    [
+      { "key": "selector", "operator": "equal", "operand": "text.html.basic"}
+    ]
+  },
 
-	{ "keys": ["super+u"], "command": "insert_snippet", "args": {"contents": "<u>${0:$SELECTION}</u>" }, "context":
-		[
-			{ "key": "selector", "operator": "equal", "operand": "text.html.basic"}
-		]
-	}
+  { "keys": ["super+u"], "command": "insert_snippet", "args": {"contents": "<u>${0:$SELECTION}</u>" }, "context":
+    [
+      { "key": "selector", "operator": "equal", "operand": "text.html.basic"}
+    ]
+  }
 ]
