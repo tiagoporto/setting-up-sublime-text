@@ -60,7 +60,7 @@
 	
 	// Disables horizontal scrolling if enabled.
 	// May be set to true, false, or "auto", where it will be disabled for
-        // source code, and otherwise enabled.
+	// source code, and otherwise enabled.
 	"word_wrap": "false",
 
 	// These files will still show up in the side bar, but won't be included in
