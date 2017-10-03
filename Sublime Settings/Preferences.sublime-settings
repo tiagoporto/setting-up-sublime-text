@@ -23,11 +23,6 @@
 	// Set to false to disable detection of tabs vs. spaces on load
 	"detect_indentation": false,
 
-	// Disables horizontal scrolling if enabled.
-	// May be set to true, false, or "auto", where it will be disabled for
-	// source code, and otherwise enabled.
-	"word_wrap": true,
-
 	// Controls how the indent guides are drawn, valid options are
 	// "draw_normal" and "draw_active". draw_active will draw the indent
 	// guides containing the caret in a different color.
