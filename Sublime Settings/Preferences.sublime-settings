@@ -49,6 +49,24 @@
 
 	// Makes tabs with modified files more visible
 	"highlight_modified_tabs": true,
+	
+	// Set to "none" to turn off drawing white space, "selection" to draw only the
+	// white space within the selection, and "all" to draw all white space
+	"draw_white_space": "all",
+	
+	// Show folders in the side bar in bold
+	"bold_folder_labels": true,
+	
+	// Display file encoding in the status bar
+	"show_encoding": true,
+	
+	// Display line endings in the status bar
+	"show_line_endings": true,
+	
+	// Disables horizontal scrolling if enabled.
+	// May be set to true, false, or "auto", where it will be disabled for
+        // source code, and otherwise enabled.
+	"word_wrap": "false"
 
 	// These files will still show up in the side bar, but won't be included in
 	// Goto Anything or Find in Files
