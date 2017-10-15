@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
 /*!
-*	${1:Project Name} v${2:0}.${3:0}.${4:1}
-*	${5:Project Home page}
-*	Copyright (c) ${6:initialyear}-${7:atualyear} ${8:Author Name} (${9:Site})
+*	${1:Project Name} v${2:0}.${3:1}.${4:0}
+*	${5:http://project-home-page}
+*	Copyright (c) ${6:initialyear}-${7:atualyear} ${8:Author Name} (${9:http://site})
 *	Released under the ${10:MIT} license
 */
 ]]></content>
