@@ -5,7 +5,7 @@ https://github.com/pafnuty/imgHolder -->
 
 <!-- http://wesbos.github.io/Sublime-Text-Power-User-Talk -->
 
-<p align="center"><img src="http://upload.wikimedia.org/wikipedia/en/4/4c/Sublime_Text_Logo.png" alt="Sublime Text Logo" width="120" ></p>
+<p align="center"><img src="https://en.wikipedia.org/wiki/Sublime_Text#/media/File:Sublime_Text_3_logo.png" alt="Sublime Text Logo" width="120" ></p>
 
 This is not a step by step guide for anyone who starts with [Sublime Text](http://www.sublimetext.com/). These are the settings and reminders that fit in my workflow. You can choose what is the best for you.
 
