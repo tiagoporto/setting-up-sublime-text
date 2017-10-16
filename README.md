@@ -1,7 +1,6 @@
 # Setting Up Sublime Text 3
 
-<!-- https://github.com/orizens/html-extended
-https://github.com/pafnuty/imgHolder -->
+<!-- https://github.com/orizens/html-extended -->
 
 <p align="center"><img src="https://upload.wikimedia.org/wikipedia/en/d/d2/Sublime_Text_3_logo.png" alt="Sublime Text Logo" width="120" ></p>
 
