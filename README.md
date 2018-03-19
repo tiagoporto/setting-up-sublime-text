@@ -34,3 +34,5 @@ Download and install [Sublime Text 3](http://www.sublimetext.com/3).
 * [Creating Project](https://github.com/tiagoporto/setting-up-sublime-text/wiki/08-Creating-Project)
 * [Backing Up Sublime Text](https://github.com/tiagoporto/setting-up-sublime-text/wiki/09-Backing-Up-Sublime-text)
 * [References](https://github.com/tiagoporto/setting-up-sublime-text/wiki/10-References)
+
+<p align="center"><img src="https://forthebadge.com/images/badges/built-with-love.svg"/></p> 
