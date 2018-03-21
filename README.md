@@ -7,8 +7,8 @@
 </p>
 
 
-This is not a step by step guide for anyone who starts with [Sublime Text](http://www.sublimetext.com/). These are the settings and reminders that fit in my workflow. You can choose what is the best for you.
-
+> This is not a step by step guide for anyone who starts with [Sublime Text](http://www.sublimetext.com/). These are the settings and reminders that fit in my workflow. You can choose what is the best for you.
+>
 > If they are useful to me, may also be useful for you.
 
 ## Sublime Text
