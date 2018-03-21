@@ -3,7 +3,7 @@
 <p align="center"><img src="https://upload.wikimedia.org/wikipedia/en/d/d2/Sublime_Text_3_logo.png" alt="Sublime Text Logo" width="120" ></p>
 
 <p align="right">
-  <code>LIKED ? Leave a <a href="https://github.com/tiagoporto/setting-up-sublime-text">⭐</a> : 😞</code>
+  <code>LIKED ? Leave a <a href="https://github.com/tiagoporto/setting-up-sublime-text">⭐</a> : <a href="https://github.com/tiagoporto/setting-up-sublime-text/issues">😞</a></code>
 </p>
 
 
